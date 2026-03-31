@@ -1,0 +1,1772 @@
+{
+  "username": "",
+  "target_name": "",
+  "domain": "assettracking.thegoldenelement.com",
+  "target_url": "https://assettracking.thegoldenelement.com",
+  "username_correlation": null,
+  "email_patterns": null,
+  "asset_discovery": {
+    "domain": "assettracking.thegoldenelement.com",
+    "total_assets": 27,
+    "assets": [
+      {
+        "asset": "https://assettracking.thegoldenelement.com/.htaccess",
+        "asset_type": "sensitive_file",
+        "source": "file_enumeration",
+        "status_code": 403,
+        "ip_addresses": [],
+        "metadata": {
+          "file_path": ".htaccess",
+          "risk": "medium"
+        },
+        "discovered_at": "2025-12-30T12:20:07.378312"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/.htpasswd",
+        "asset_type": "sensitive_file",
+        "source": "file_enumeration",
+        "status_code": 403,
+        "ip_addresses": [],
+        "metadata": {
+          "file_path": ".htpasswd",
+          "risk": "medium"
+        },
+        "discovered_at": "2025-12-30T12:20:07.539697"
+      },
+      {
+        "asset": "Apache/2.4.52 (Ubuntu)",
+        "asset_type": "technology",
+        "source": "http_headers",
+        "status_code": null,
+        "ip_addresses": [],
+        "metadata": {
+          "header": "Server",
+          "url": "https://assettracking.thegoldenelement.com"
+        },
+        "discovered_at": "2025-12-30T12:20:17.670282"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/media/jqx-icons-4VPAMHGO.woff",
+        "asset_type": "url",
+        "source": "response_body",
+        "status_code": null,
+        "ip_addresses": [],
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "discovered_at": "2025-12-30T12:20:17.672196"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/head",
+        "asset_type": "url",
+        "source": "response_body",
+        "status_code": null,
+        "ip_addresses": [],
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "discovered_at": "2025-12-30T12:20:17.672196"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/0;--tw-shadow-colored:0",
+        "asset_type": "url",
+        "source": "response_body",
+        "status_code": null,
+        "ip_addresses": [],
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "discovered_at": "2025-12-30T12:20:17.673213"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/40;--tw-shadow-colored:0",
+        "asset_type": "url",
+        "source": "response_body",
+        "status_code": null,
+        "ip_addresses": [],
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "discovered_at": "2025-12-30T12:20:17.673213"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/style",
+        "asset_type": "url",
+        "source": "response_body",
+        "status_code": null,
+        "ip_addresses": [],
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "discovered_at": "2025-12-30T12:20:17.673213"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/body",
+        "asset_type": "url",
+        "source": "response_body",
+        "status_code": null,
+        "ip_addresses": [],
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "discovered_at": "2025-12-30T12:20:17.673213"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/media/Inter-italic.var-YRHKCDAA.woff2?v=3.19",
+        "asset_type": "url",
+        "source": "response_body",
+        "status_code": null,
+        "ip_addresses": [],
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "discovered_at": "2025-12-30T12:20:17.673213"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/noscript",
+        "asset_type": "url",
+        "source": "response_body",
+        "status_code": null,
+        "ip_addresses": [],
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "discovered_at": "2025-12-30T12:20:17.673213"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/app-root",
+        "asset_type": "url",
+        "source": "response_body",
+        "status_code": null,
+        "ip_addresses": [],
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "discovered_at": "2025-12-30T12:20:17.673213"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/logo/ge.png",
+        "asset_type": "url",
+        "source": "response_body",
+        "status_code": null,
+        "ip_addresses": [],
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "discovered_at": "2025-12-30T12:20:17.673213"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/2)var(--chat--spacing);--chat--button--border-radius:var(--chat--border-radius);--chat--button--hover--color:var(--chat--color-light);--chat--button--hover--background:var(--chat--color--primary-shade-50);--chat--close--button--color-hover:var(--chat--color--primary);--chat--input--send--button--background:var(--chat--color-white);--chat--input--send--button--color:var(--chat--color--secondary);--chat--input--send--button--background-hover:var(--chat--color--primary-shade-50);--chat--input--send--button--color-hover:var(--chat--color-secondary-shade-50);--chat--input--file--button--background:var(--chat--color-white);--chat--input--file--button--color:var(--chat--color--secondary);--chat--input--file--button--background-hover:var(--chat--input--file--button--background);--chat--input--file--button--color-hover:var(--chat--color-secondary-shade-50);--chat--files-spacing:.25rem;--chat--body--background:var(--chat--color-light);--chat--footer--background:var(--chat--color-light);--chat--footer--color:var(--chat--color-dark)}",
+        "asset_type": "url",
+        "source": "response_body",
+        "status_code": null,
+        "ip_addresses": [],
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "discovered_at": "2025-12-30T12:20:17.673213"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/script",
+        "asset_type": "url",
+        "source": "response_body",
+        "status_code": null,
+        "ip_addresses": [],
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "discovered_at": "2025-12-30T12:20:17.673213"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/html",
+        "asset_type": "url",
+        "source": "response_body",
+        "status_code": null,
+        "ip_addresses": [],
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "discovered_at": "2025-12-30T12:20:17.674212"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/x-icon",
+        "asset_type": "url",
+        "source": "response_body",
+        "status_code": null,
+        "ip_addresses": [],
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "discovered_at": "2025-12-30T12:20:17.674212"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/media/jqx-icons-TVWGCOUD.eot",
+        "asset_type": "url",
+        "source": "response_body",
+        "status_code": null,
+        "ip_addresses": [],
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "discovered_at": "2025-12-30T12:20:17.674212"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/ynex-tailwind/preview/",
+        "asset_type": "url",
+        "source": "response_body",
+        "status_code": null,
+        "ip_addresses": [],
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "discovered_at": "2025-12-30T12:20:17.674212"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/png",
+        "asset_type": "url",
+        "source": "response_body",
+        "status_code": null,
+        "ip_addresses": [],
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "discovered_at": "2025-12-30T12:20:17.674212"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/media/jqx-icons-JPLOBFKT.woff2",
+        "asset_type": "url",
+        "source": "response_body",
+        "status_code": null,
+        "ip_addresses": [],
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "discovered_at": "2025-12-30T12:20:17.674212"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/font/jqx-icons",
+        "asset_type": "url",
+        "source": "response_body",
+        "status_code": null,
+        "ip_addresses": [],
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "discovered_at": "2025-12-30T12:20:17.674212"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/media/Inter-roman.var-5VGNBR6A.woff2?v=3.19",
+        "asset_type": "url",
+        "source": "response_body",
+        "status_code": null,
+        "ip_addresses": [],
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "discovered_at": "2025-12-30T12:20:17.674212"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/media/jqx-icons-6MUFLTLQ.ttf",
+        "asset_type": "url",
+        "source": "response_body",
+        "status_code": null,
+        "ip_addresses": [],
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "discovered_at": "2025-12-30T12:20:17.674212"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/title",
+        "asset_type": "url",
+        "source": "response_body",
+        "status_code": null,
+        "ip_addresses": [],
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "discovered_at": "2025-12-30T12:20:17.674212"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/",
+        "asset_type": "url",
+        "source": "response_body",
+        "status_code": null,
+        "ip_addresses": [],
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "discovered_at": "2025-12-30T12:20:17.674212"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/assets/images/brand-logos/favicon.ico",
+        "asset_type": "url",
+        "source": "response_body",
+        "status_code": null,
+        "ip_addresses": [],
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "discovered_at": "2025-12-30T12:20:17.675212"
+      }
+    ],
+    "categorized": {
+      "sensitive_file": [
+        {
+          "asset": "https://assettracking.thegoldenelement.com/.htaccess",
+          "asset_type": "sensitive_file",
+          "source": "file_enumeration",
+          "status_code": 403,
+          "ip_addresses": [],
+          "metadata": {
+            "file_path": ".htaccess",
+            "risk": "medium"
+          },
+          "discovered_at": "2025-12-30T12:20:07.378312"
+        },
+        {
+          "asset": "https://assettracking.thegoldenelement.com/.htpasswd",
+          "asset_type": "sensitive_file",
+          "source": "file_enumeration",
+          "status_code": 403,
+          "ip_addresses": [],
+          "metadata": {
+            "file_path": ".htpasswd",
+            "risk": "medium"
+          },
+          "discovered_at": "2025-12-30T12:20:07.539697"
+        }
+      ],
+      "technology": [
+        {
+          "asset": "Apache/2.4.52 (Ubuntu)",
+          "asset_type": "technology",
+          "source": "http_headers",
+          "status_code": null,
+          "ip_addresses": [],
+          "metadata": {
+            "header": "Server",
+            "url": "https://assettracking.thegoldenelement.com"
+          },
+          "discovered_at": "2025-12-30T12:20:17.670282"
+        }
+      ],
+      "url": [
+        {
+          "asset": "https://assettracking.thegoldenelement.com/media/jqx-icons-4VPAMHGO.woff",
+          "asset_type": "url",
+          "source": "response_body",
+          "status_code": null,
+          "ip_addresses": [],
+          "metadata": {
+            "found_in": "https://assettracking.thegoldenelement.com"
+          },
+          "discovered_at": "2025-12-30T12:20:17.672196"
+        },
+        {
+          "asset": "https://assettracking.thegoldenelement.com/head",
+          "asset_type": "url",
+          "source": "response_body",
+          "status_code": null,
+          "ip_addresses": [],
+          "metadata": {
+            "found_in": "https://assettracking.thegoldenelement.com"
+          },
+          "discovered_at": "2025-12-30T12:20:17.672196"
+        },
+        {
+          "asset": "https://assettracking.thegoldenelement.com/0;--tw-shadow-colored:0",
+          "asset_type": "url",
+          "source": "response_body",
+          "status_code": null,
+          "ip_addresses": [],
+          "metadata": {
+            "found_in": "https://assettracking.thegoldenelement.com"
+          },
+          "discovered_at": "2025-12-30T12:20:17.673213"
+        },
+        {
+          "asset": "https://assettracking.thegoldenelement.com/40;--tw-shadow-colored:0",
+          "asset_type": "url",
+          "source": "response_body",
+          "status_code": null,
+          "ip_addresses": [],
+          "metadata": {
+            "found_in": "https://assettracking.thegoldenelement.com"
+          },
+          "discovered_at": "2025-12-30T12:20:17.673213"
+        },
+        {
+          "asset": "https://assettracking.thegoldenelement.com/style",
+          "asset_type": "url",
+          "source": "response_body",
+          "status_code": null,
+          "ip_addresses": [],
+          "metadata": {
+            "found_in": "https://assettracking.thegoldenelement.com"
+          },
+          "discovered_at": "2025-12-30T12:20:17.673213"
+        },
+        {
+          "asset": "https://assettracking.thegoldenelement.com/body",
+          "asset_type": "url",
+          "source": "response_body",
+          "status_code": null,
+          "ip_addresses": [],
+          "metadata": {
+            "found_in": "https://assettracking.thegoldenelement.com"
+          },
+          "discovered_at": "2025-12-30T12:20:17.673213"
+        },
+        {
+          "asset": "https://assettracking.thegoldenelement.com/media/Inter-italic.var-YRHKCDAA.woff2?v=3.19",
+          "asset_type": "url",
+          "source": "response_body",
+          "status_code": null,
+          "ip_addresses": [],
+          "metadata": {
+            "found_in": "https://assettracking.thegoldenelement.com"
+          },
+          "discovered_at": "2025-12-30T12:20:17.673213"
+        },
+        {
+          "asset": "https://assettracking.thegoldenelement.com/noscript",
+          "asset_type": "url",
+          "source": "response_body",
+          "status_code": null,
+          "ip_addresses": [],
+          "metadata": {
+            "found_in": "https://assettracking.thegoldenelement.com"
+          },
+          "discovered_at": "2025-12-30T12:20:17.673213"
+        },
+        {
+          "asset": "https://assettracking.thegoldenelement.com/app-root",
+          "asset_type": "url",
+          "source": "response_body",
+          "status_code": null,
+          "ip_addresses": [],
+          "metadata": {
+            "found_in": "https://assettracking.thegoldenelement.com"
+          },
+          "discovered_at": "2025-12-30T12:20:17.673213"
+        },
+        {
+          "asset": "https://assettracking.thegoldenelement.com/logo/ge.png",
+          "asset_type": "url",
+          "source": "response_body",
+          "status_code": null,
+          "ip_addresses": [],
+          "metadata": {
+            "found_in": "https://assettracking.thegoldenelement.com"
+          },
+          "discovered_at": "2025-12-30T12:20:17.673213"
+        },
+        {
+          "asset": "https://assettracking.thegoldenelement.com/2)var(--chat--spacing);--chat--button--border-radius:var(--chat--border-radius);--chat--button--hover--color:var(--chat--color-light);--chat--button--hover--background:var(--chat--color--primary-shade-50);--chat--close--button--color-hover:var(--chat--color--primary);--chat--input--send--button--background:var(--chat--color-white);--chat--input--send--button--color:var(--chat--color--secondary);--chat--input--send--button--background-hover:var(--chat--color--primary-shade-50);--chat--input--send--button--color-hover:var(--chat--color-secondary-shade-50);--chat--input--file--button--background:var(--chat--color-white);--chat--input--file--button--color:var(--chat--color--secondary);--chat--input--file--button--background-hover:var(--chat--input--file--button--background);--chat--input--file--button--color-hover:var(--chat--color-secondary-shade-50);--chat--files-spacing:.25rem;--chat--body--background:var(--chat--color-light);--chat--footer--background:var(--chat--color-light);--chat--footer--color:var(--chat--color-dark)}",
+          "asset_type": "url",
+          "source": "response_body",
+          "status_code": null,
+          "ip_addresses": [],
+          "metadata": {
+            "found_in": "https://assettracking.thegoldenelement.com"
+          },
+          "discovered_at": "2025-12-30T12:20:17.673213"
+        },
+        {
+          "asset": "https://assettracking.thegoldenelement.com/script",
+          "asset_type": "url",
+          "source": "response_body",
+          "status_code": null,
+          "ip_addresses": [],
+          "metadata": {
+            "found_in": "https://assettracking.thegoldenelement.com"
+          },
+          "discovered_at": "2025-12-30T12:20:17.673213"
+        },
+        {
+          "asset": "https://assettracking.thegoldenelement.com/html",
+          "asset_type": "url",
+          "source": "response_body",
+          "status_code": null,
+          "ip_addresses": [],
+          "metadata": {
+            "found_in": "https://assettracking.thegoldenelement.com"
+          },
+          "discovered_at": "2025-12-30T12:20:17.674212"
+        },
+        {
+          "asset": "https://assettracking.thegoldenelement.com/x-icon",
+          "asset_type": "url",
+          "source": "response_body",
+          "status_code": null,
+          "ip_addresses": [],
+          "metadata": {
+            "found_in": "https://assettracking.thegoldenelement.com"
+          },
+          "discovered_at": "2025-12-30T12:20:17.674212"
+        },
+        {
+          "asset": "https://assettracking.thegoldenelement.com/media/jqx-icons-TVWGCOUD.eot",
+          "asset_type": "url",
+          "source": "response_body",
+          "status_code": null,
+          "ip_addresses": [],
+          "metadata": {
+            "found_in": "https://assettracking.thegoldenelement.com"
+          },
+          "discovered_at": "2025-12-30T12:20:17.674212"
+        },
+        {
+          "asset": "https://assettracking.thegoldenelement.com/ynex-tailwind/preview/",
+          "asset_type": "url",
+          "source": "response_body",
+          "status_code": null,
+          "ip_addresses": [],
+          "metadata": {
+            "found_in": "https://assettracking.thegoldenelement.com"
+          },
+          "discovered_at": "2025-12-30T12:20:17.674212"
+        },
+        {
+          "asset": "https://assettracking.thegoldenelement.com/png",
+          "asset_type": "url",
+          "source": "response_body",
+          "status_code": null,
+          "ip_addresses": [],
+          "metadata": {
+            "found_in": "https://assettracking.thegoldenelement.com"
+          },
+          "discovered_at": "2025-12-30T12:20:17.674212"
+        },
+        {
+          "asset": "https://assettracking.thegoldenelement.com/media/jqx-icons-JPLOBFKT.woff2",
+          "asset_type": "url",
+          "source": "response_body",
+          "status_code": null,
+          "ip_addresses": [],
+          "metadata": {
+            "found_in": "https://assettracking.thegoldenelement.com"
+          },
+          "discovered_at": "2025-12-30T12:20:17.674212"
+        },
+        {
+          "asset": "https://assettracking.thegoldenelement.com/font/jqx-icons",
+          "asset_type": "url",
+          "source": "response_body",
+          "status_code": null,
+          "ip_addresses": [],
+          "metadata": {
+            "found_in": "https://assettracking.thegoldenelement.com"
+          },
+          "discovered_at": "2025-12-30T12:20:17.674212"
+        },
+        {
+          "asset": "https://assettracking.thegoldenelement.com/media/Inter-roman.var-5VGNBR6A.woff2?v=3.19",
+          "asset_type": "url",
+          "source": "response_body",
+          "status_code": null,
+          "ip_addresses": [],
+          "metadata": {
+            "found_in": "https://assettracking.thegoldenelement.com"
+          },
+          "discovered_at": "2025-12-30T12:20:17.674212"
+        },
+        {
+          "asset": "https://assettracking.thegoldenelement.com/media/jqx-icons-6MUFLTLQ.ttf",
+          "asset_type": "url",
+          "source": "response_body",
+          "status_code": null,
+          "ip_addresses": [],
+          "metadata": {
+            "found_in": "https://assettracking.thegoldenelement.com"
+          },
+          "discovered_at": "2025-12-30T12:20:17.674212"
+        },
+        {
+          "asset": "https://assettracking.thegoldenelement.com/title",
+          "asset_type": "url",
+          "source": "response_body",
+          "status_code": null,
+          "ip_addresses": [],
+          "metadata": {
+            "found_in": "https://assettracking.thegoldenelement.com"
+          },
+          "discovered_at": "2025-12-30T12:20:17.674212"
+        },
+        {
+          "asset": "https://assettracking.thegoldenelement.com/",
+          "asset_type": "url",
+          "source": "response_body",
+          "status_code": null,
+          "ip_addresses": [],
+          "metadata": {
+            "found_in": "https://assettracking.thegoldenelement.com"
+          },
+          "discovered_at": "2025-12-30T12:20:17.674212"
+        },
+        {
+          "asset": "https://assettracking.thegoldenelement.com/assets/images/brand-logos/favicon.ico",
+          "asset_type": "url",
+          "source": "response_body",
+          "status_code": null,
+          "ip_addresses": [],
+          "metadata": {
+            "found_in": "https://assettracking.thegoldenelement.com"
+          },
+          "discovered_at": "2025-12-30T12:20:17.675212"
+        }
+      ]
+    },
+    "summary": {
+      "sensitive_file": 2,
+      "technology": 1,
+      "url": 24
+    },
+    "timestamp": "2025-12-30T12:20:17.676212"
+  },
+  "tech_fingerprint": {
+    "url": "https://assettracking.thegoldenelement.com",
+    "web_server": {
+      "type": null,
+      "version": null,
+      "raw": null
+    },
+    "backend": {
+      "detected": [],
+      "primary": null
+    },
+    "frontend": {
+      "frameworks": []
+    },
+    "auth_mechanisms": {
+      "session_based": false,
+      "token_based": false,
+      "oauth": false,
+      "jwt": false,
+      "basic_auth": false,
+      "cookie_names": [],
+      "tokens_found": [],
+      "oauth_providers": [
+        "google",
+        "facebook",
+        "github",
+        "twitter"
+      ]
+    },
+    "security": {
+      "waf_cdn": {
+        "detected": [
+          {
+            "name": "cloudflare",
+            "type": "CDN",
+            "confidence": 40,
+            "evidence": [
+              "Header: server"
+            ]
+          },
+          {
+            "name": "modsecurity",
+            "type": "WAF",
+            "confidence": 40,
+            "evidence": [
+              "Header: server"
+            ]
+          }
+        ],
+        "has_waf": true,
+        "has_cdn": true
+      },
+      "security_headers": {
+        "headers": {
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "content-security-policy": false,
+          "x-frame-options": "DENY",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "referrer-policy": false,
+          "permissions-policy": false
+        },
+        "score": 57.14,
+        "missing": [
+          "content-security-policy",
+          "referrer-policy",
+          "permissions-policy"
+        ]
+      }
+    },
+    "cms": {
+      "detected": [],
+      "primary": null
+    },
+    "databases": [],
+    "cloud_provider": "gcp",
+    "vulnerabilities": [],
+    "confidence_score": 0.0,
+    "metadata": {
+      "status_code": 200,
+      "final_url": "https://assettracking.thegoldenelement.com",
+      "content_length": 103400
+    },
+    "timestamp": "2025-12-30T12:20:17.685213"
+  },
+  "attack_surface_prioritization": {
+    "total_assets": 27,
+    "ranked_assets": [
+      {
+        "asset": "https://assettracking.thegoldenelement.com/.htaccess",
+        "asset_type": "sensitive_file",
+        "total_score": 98.0,
+        "priority_level": "critical",
+        "scoring_factors": [
+          {
+            "category": "sensitive_endpoint",
+            "description": "Sensitive file/endpoint detected",
+            "score": 70,
+            "weight": 1.4,
+            "weighted_score": 98.0,
+            "reasoning": "Sensitive file accessible: .htaccess (forbidden but exists - bypass possible)"
+          }
+        ],
+        "recommended_attacks": [
+          "File download and analysis",
+          "Credential extraction",
+          "Source code review"
+        ],
+        "risk_summary": "CRITICAL priority target (score: 98.0/100). Key factors: Sensitive file/endpoint detected.",
+        "metadata": {
+          "file_path": ".htaccess",
+          "risk": "medium"
+        },
+        "ranked_position": 1,
+        "timestamp": "2025-12-30T12:20:19.224727"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/.htpasswd",
+        "asset_type": "sensitive_file",
+        "total_score": 98.0,
+        "priority_level": "critical",
+        "scoring_factors": [
+          {
+            "category": "sensitive_endpoint",
+            "description": "Sensitive file/endpoint detected",
+            "score": 70,
+            "weight": 1.4,
+            "weighted_score": 98.0,
+            "reasoning": "Sensitive file accessible: .htpasswd (forbidden but exists - bypass possible)"
+          }
+        ],
+        "recommended_attacks": [
+          "File download and analysis",
+          "Credential extraction",
+          "Source code review"
+        ],
+        "risk_summary": "CRITICAL priority target (score: 98.0/100). Key factors: Sensitive file/endpoint detected.",
+        "metadata": {
+          "file_path": ".htpasswd",
+          "risk": "medium"
+        },
+        "ranked_position": 2,
+        "timestamp": "2025-12-30T12:20:19.225727"
+      },
+      {
+        "asset": "Apache/2.4.52 (Ubuntu)",
+        "asset_type": "technology",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "header": "Server",
+          "url": "https://assettracking.thegoldenelement.com"
+        },
+        "ranked_position": 3,
+        "timestamp": "2025-12-30T12:20:19.227728"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/media/jqx-icons-4VPAMHGO.woff",
+        "asset_type": "url",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "ranked_position": 4,
+        "timestamp": "2025-12-30T12:20:19.227728"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/head",
+        "asset_type": "url",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "ranked_position": 5,
+        "timestamp": "2025-12-30T12:20:19.228729"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/0;--tw-shadow-colored:0",
+        "asset_type": "url",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "ranked_position": 6,
+        "timestamp": "2025-12-30T12:20:19.230735"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/40;--tw-shadow-colored:0",
+        "asset_type": "url",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "ranked_position": 7,
+        "timestamp": "2025-12-30T12:20:19.230735"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/style",
+        "asset_type": "url",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "ranked_position": 8,
+        "timestamp": "2025-12-30T12:20:19.231733"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/body",
+        "asset_type": "url",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "ranked_position": 9,
+        "timestamp": "2025-12-30T12:20:19.231733"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/media/Inter-italic.var-YRHKCDAA.woff2?v=3.19",
+        "asset_type": "url",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "ranked_position": 10,
+        "timestamp": "2025-12-30T12:20:19.232730"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/noscript",
+        "asset_type": "url",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "ranked_position": 11,
+        "timestamp": "2025-12-30T12:20:19.232730"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/app-root",
+        "asset_type": "url",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "ranked_position": 12,
+        "timestamp": "2025-12-30T12:20:19.235730"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/logo/ge.png",
+        "asset_type": "url",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "ranked_position": 13,
+        "timestamp": "2025-12-30T12:20:19.238730"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/2)var(--chat--spacing);--chat--button--border-radius:var(--chat--border-radius);--chat--button--hover--color:var(--chat--color-light);--chat--button--hover--background:var(--chat--color--primary-shade-50);--chat--close--button--color-hover:var(--chat--color--primary);--chat--input--send--button--background:var(--chat--color-white);--chat--input--send--button--color:var(--chat--color--secondary);--chat--input--send--button--background-hover:var(--chat--color--primary-shade-50);--chat--input--send--button--color-hover:var(--chat--color-secondary-shade-50);--chat--input--file--button--background:var(--chat--color-white);--chat--input--file--button--color:var(--chat--color--secondary);--chat--input--file--button--background-hover:var(--chat--input--file--button--background);--chat--input--file--button--color-hover:var(--chat--color-secondary-shade-50);--chat--files-spacing:.25rem;--chat--body--background:var(--chat--color-light);--chat--footer--background:var(--chat--color-light);--chat--footer--color:var(--chat--color-dark)}",
+        "asset_type": "url",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "ranked_position": 14,
+        "timestamp": "2025-12-30T12:20:19.241730"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/script",
+        "asset_type": "url",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "ranked_position": 15,
+        "timestamp": "2025-12-30T12:20:19.241730"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/html",
+        "asset_type": "url",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "ranked_position": 16,
+        "timestamp": "2025-12-30T12:20:19.242729"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/x-icon",
+        "asset_type": "url",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "ranked_position": 17,
+        "timestamp": "2025-12-30T12:20:19.242729"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/media/jqx-icons-TVWGCOUD.eot",
+        "asset_type": "url",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "ranked_position": 18,
+        "timestamp": "2025-12-30T12:20:19.243732"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/ynex-tailwind/preview/",
+        "asset_type": "url",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "ranked_position": 19,
+        "timestamp": "2025-12-30T12:20:19.243732"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/png",
+        "asset_type": "url",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "ranked_position": 20,
+        "timestamp": "2025-12-30T12:20:19.244730"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/media/jqx-icons-JPLOBFKT.woff2",
+        "asset_type": "url",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "ranked_position": 21,
+        "timestamp": "2025-12-30T12:20:19.244730"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/font/jqx-icons",
+        "asset_type": "url",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "ranked_position": 22,
+        "timestamp": "2025-12-30T12:20:19.245727"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/media/Inter-roman.var-5VGNBR6A.woff2?v=3.19",
+        "asset_type": "url",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "ranked_position": 23,
+        "timestamp": "2025-12-30T12:20:19.246735"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/media/jqx-icons-6MUFLTLQ.ttf",
+        "asset_type": "url",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "ranked_position": 24,
+        "timestamp": "2025-12-30T12:20:19.248731"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/title",
+        "asset_type": "url",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "ranked_position": 25,
+        "timestamp": "2025-12-30T12:20:19.248731"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/",
+        "asset_type": "url",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "ranked_position": 26,
+        "timestamp": "2025-12-30T12:20:19.248731"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/assets/images/brand-logos/favicon.ico",
+        "asset_type": "url",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "ranked_position": 27,
+        "timestamp": "2025-12-30T12:20:19.249730"
+      }
+    ],
+    "categorized_by_priority": {
+      "critical": [
+        {
+          "asset": "https://assettracking.thegoldenelement.com/.htaccess",
+          "asset_type": "sensitive_file",
+          "total_score": 98.0,
+          "priority_level": "critical",
+          "scoring_factors": [
+            {
+              "category": "sensitive_endpoint",
+              "description": "Sensitive file/endpoint detected",
+              "score": 70,
+              "weight": 1.4,
+              "weighted_score": 98.0,
+              "reasoning": "Sensitive file accessible: .htaccess (forbidden but exists - bypass possible)"
+            }
+          ],
+          "recommended_attacks": [
+            "File download and analysis",
+            "Credential extraction",
+            "Source code review"
+          ],
+          "risk_summary": "CRITICAL priority target (score: 98.0/100). Key factors: Sensitive file/endpoint detected.",
+          "metadata": {
+            "file_path": ".htaccess",
+            "risk": "medium"
+          },
+          "ranked_position": 1,
+          "timestamp": "2025-12-30T12:20:19.224727"
+        },
+        {
+          "asset": "https://assettracking.thegoldenelement.com/.htpasswd",
+          "asset_type": "sensitive_file",
+          "total_score": 98.0,
+          "priority_level": "critical",
+          "scoring_factors": [
+            {
+              "category": "sensitive_endpoint",
+              "description": "Sensitive file/endpoint detected",
+              "score": 70,
+              "weight": 1.4,
+              "weighted_score": 98.0,
+              "reasoning": "Sensitive file accessible: .htpasswd (forbidden but exists - bypass possible)"
+            }
+          ],
+          "recommended_attacks": [
+            "File download and analysis",
+            "Credential extraction",
+            "Source code review"
+          ],
+          "risk_summary": "CRITICAL priority target (score: 98.0/100). Key factors: Sensitive file/endpoint detected.",
+          "metadata": {
+            "file_path": ".htpasswd",
+            "risk": "medium"
+          },
+          "ranked_position": 2,
+          "timestamp": "2025-12-30T12:20:19.225727"
+        }
+      ],
+      "high": [],
+      "medium": [],
+      "low": [],
+      "minimal": [
+        {
+          "asset": "Apache/2.4.52 (Ubuntu)",
+          "asset_type": "technology",
+          "total_score": 10,
+          "priority_level": "minimal",
+          "scoring_factors": [],
+          "recommended_attacks": [],
+          "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+          "metadata": {
+            "header": "Server",
+            "url": "https://assettracking.thegoldenelement.com"
+          },
+          "ranked_position": 3,
+          "timestamp": "2025-12-30T12:20:19.227728"
+        },
+        {
+          "asset": "https://assettracking.thegoldenelement.com/media/jqx-icons-4VPAMHGO.woff",
+          "asset_type": "url",
+          "total_score": 10,
+          "priority_level": "minimal",
+          "scoring_factors": [],
+          "recommended_attacks": [],
+          "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+          "metadata": {
+            "found_in": "https://assettracking.thegoldenelement.com"
+          },
+          "ranked_position": 4,
+          "timestamp": "2025-12-30T12:20:19.227728"
+        },
+        {
+          "asset": "https://assettracking.thegoldenelement.com/head",
+          "asset_type": "url",
+          "total_score": 10,
+          "priority_level": "minimal",
+          "scoring_factors": [],
+          "recommended_attacks": [],
+          "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+          "metadata": {
+            "found_in": "https://assettracking.thegoldenelement.com"
+          },
+          "ranked_position": 5,
+          "timestamp": "2025-12-30T12:20:19.228729"
+        },
+        {
+          "asset": "https://assettracking.thegoldenelement.com/0;--tw-shadow-colored:0",
+          "asset_type": "url",
+          "total_score": 10,
+          "priority_level": "minimal",
+          "scoring_factors": [],
+          "recommended_attacks": [],
+          "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+          "metadata": {
+            "found_in": "https://assettracking.thegoldenelement.com"
+          },
+          "ranked_position": 6,
+          "timestamp": "2025-12-30T12:20:19.230735"
+        },
+        {
+          "asset": "https://assettracking.thegoldenelement.com/40;--tw-shadow-colored:0",
+          "asset_type": "url",
+          "total_score": 10,
+          "priority_level": "minimal",
+          "scoring_factors": [],
+          "recommended_attacks": [],
+          "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+          "metadata": {
+            "found_in": "https://assettracking.thegoldenelement.com"
+          },
+          "ranked_position": 7,
+          "timestamp": "2025-12-30T12:20:19.230735"
+        },
+        {
+          "asset": "https://assettracking.thegoldenelement.com/style",
+          "asset_type": "url",
+          "total_score": 10,
+          "priority_level": "minimal",
+          "scoring_factors": [],
+          "recommended_attacks": [],
+          "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+          "metadata": {
+            "found_in": "https://assettracking.thegoldenelement.com"
+          },
+          "ranked_position": 8,
+          "timestamp": "2025-12-30T12:20:19.231733"
+        },
+        {
+          "asset": "https://assettracking.thegoldenelement.com/body",
+          "asset_type": "url",
+          "total_score": 10,
+          "priority_level": "minimal",
+          "scoring_factors": [],
+          "recommended_attacks": [],
+          "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+          "metadata": {
+            "found_in": "https://assettracking.thegoldenelement.com"
+          },
+          "ranked_position": 9,
+          "timestamp": "2025-12-30T12:20:19.231733"
+        },
+        {
+          "asset": "https://assettracking.thegoldenelement.com/media/Inter-italic.var-YRHKCDAA.woff2?v=3.19",
+          "asset_type": "url",
+          "total_score": 10,
+          "priority_level": "minimal",
+          "scoring_factors": [],
+          "recommended_attacks": [],
+          "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+          "metadata": {
+            "found_in": "https://assettracking.thegoldenelement.com"
+          },
+          "ranked_position": 10,
+          "timestamp": "2025-12-30T12:20:19.232730"
+        },
+        {
+          "asset": "https://assettracking.thegoldenelement.com/noscript",
+          "asset_type": "url",
+          "total_score": 10,
+          "priority_level": "minimal",
+          "scoring_factors": [],
+          "recommended_attacks": [],
+          "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+          "metadata": {
+            "found_in": "https://assettracking.thegoldenelement.com"
+          },
+          "ranked_position": 11,
+          "timestamp": "2025-12-30T12:20:19.232730"
+        },
+        {
+          "asset": "https://assettracking.thegoldenelement.com/app-root",
+          "asset_type": "url",
+          "total_score": 10,
+          "priority_level": "minimal",
+          "scoring_factors": [],
+          "recommended_attacks": [],
+          "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+          "metadata": {
+            "found_in": "https://assettracking.thegoldenelement.com"
+          },
+          "ranked_position": 12,
+          "timestamp": "2025-12-30T12:20:19.235730"
+        },
+        {
+          "asset": "https://assettracking.thegoldenelement.com/logo/ge.png",
+          "asset_type": "url",
+          "total_score": 10,
+          "priority_level": "minimal",
+          "scoring_factors": [],
+          "recommended_attacks": [],
+          "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+          "metadata": {
+            "found_in": "https://assettracking.thegoldenelement.com"
+          },
+          "ranked_position": 13,
+          "timestamp": "2025-12-30T12:20:19.238730"
+        },
+        {
+          "asset": "https://assettracking.thegoldenelement.com/2)var(--chat--spacing);--chat--button--border-radius:var(--chat--border-radius);--chat--button--hover--color:var(--chat--color-light);--chat--button--hover--background:var(--chat--color--primary-shade-50);--chat--close--button--color-hover:var(--chat--color--primary);--chat--input--send--button--background:var(--chat--color-white);--chat--input--send--button--color:var(--chat--color--secondary);--chat--input--send--button--background-hover:var(--chat--color--primary-shade-50);--chat--input--send--button--color-hover:var(--chat--color-secondary-shade-50);--chat--input--file--button--background:var(--chat--color-white);--chat--input--file--button--color:var(--chat--color--secondary);--chat--input--file--button--background-hover:var(--chat--input--file--button--background);--chat--input--file--button--color-hover:var(--chat--color-secondary-shade-50);--chat--files-spacing:.25rem;--chat--body--background:var(--chat--color-light);--chat--footer--background:var(--chat--color-light);--chat--footer--color:var(--chat--color-dark)}",
+          "asset_type": "url",
+          "total_score": 10,
+          "priority_level": "minimal",
+          "scoring_factors": [],
+          "recommended_attacks": [],
+          "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+          "metadata": {
+            "found_in": "https://assettracking.thegoldenelement.com"
+          },
+          "ranked_position": 14,
+          "timestamp": "2025-12-30T12:20:19.241730"
+        },
+        {
+          "asset": "https://assettracking.thegoldenelement.com/script",
+          "asset_type": "url",
+          "total_score": 10,
+          "priority_level": "minimal",
+          "scoring_factors": [],
+          "recommended_attacks": [],
+          "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+          "metadata": {
+            "found_in": "https://assettracking.thegoldenelement.com"
+          },
+          "ranked_position": 15,
+          "timestamp": "2025-12-30T12:20:19.241730"
+        },
+        {
+          "asset": "https://assettracking.thegoldenelement.com/html",
+          "asset_type": "url",
+          "total_score": 10,
+          "priority_level": "minimal",
+          "scoring_factors": [],
+          "recommended_attacks": [],
+          "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+          "metadata": {
+            "found_in": "https://assettracking.thegoldenelement.com"
+          },
+          "ranked_position": 16,
+          "timestamp": "2025-12-30T12:20:19.242729"
+        },
+        {
+          "asset": "https://assettracking.thegoldenelement.com/x-icon",
+          "asset_type": "url",
+          "total_score": 10,
+          "priority_level": "minimal",
+          "scoring_factors": [],
+          "recommended_attacks": [],
+          "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+          "metadata": {
+            "found_in": "https://assettracking.thegoldenelement.com"
+          },
+          "ranked_position": 17,
+          "timestamp": "2025-12-30T12:20:19.242729"
+        },
+        {
+          "asset": "https://assettracking.thegoldenelement.com/media/jqx-icons-TVWGCOUD.eot",
+          "asset_type": "url",
+          "total_score": 10,
+          "priority_level": "minimal",
+          "scoring_factors": [],
+          "recommended_attacks": [],
+          "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+          "metadata": {
+            "found_in": "https://assettracking.thegoldenelement.com"
+          },
+          "ranked_position": 18,
+          "timestamp": "2025-12-30T12:20:19.243732"
+        },
+        {
+          "asset": "https://assettracking.thegoldenelement.com/ynex-tailwind/preview/",
+          "asset_type": "url",
+          "total_score": 10,
+          "priority_level": "minimal",
+          "scoring_factors": [],
+          "recommended_attacks": [],
+          "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+          "metadata": {
+            "found_in": "https://assettracking.thegoldenelement.com"
+          },
+          "ranked_position": 19,
+          "timestamp": "2025-12-30T12:20:19.243732"
+        },
+        {
+          "asset": "https://assettracking.thegoldenelement.com/png",
+          "asset_type": "url",
+          "total_score": 10,
+          "priority_level": "minimal",
+          "scoring_factors": [],
+          "recommended_attacks": [],
+          "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+          "metadata": {
+            "found_in": "https://assettracking.thegoldenelement.com"
+          },
+          "ranked_position": 20,
+          "timestamp": "2025-12-30T12:20:19.244730"
+        },
+        {
+          "asset": "https://assettracking.thegoldenelement.com/media/jqx-icons-JPLOBFKT.woff2",
+          "asset_type": "url",
+          "total_score": 10,
+          "priority_level": "minimal",
+          "scoring_factors": [],
+          "recommended_attacks": [],
+          "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+          "metadata": {
+            "found_in": "https://assettracking.thegoldenelement.com"
+          },
+          "ranked_position": 21,
+          "timestamp": "2025-12-30T12:20:19.244730"
+        },
+        {
+          "asset": "https://assettracking.thegoldenelement.com/font/jqx-icons",
+          "asset_type": "url",
+          "total_score": 10,
+          "priority_level": "minimal",
+          "scoring_factors": [],
+          "recommended_attacks": [],
+          "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+          "metadata": {
+            "found_in": "https://assettracking.thegoldenelement.com"
+          },
+          "ranked_position": 22,
+          "timestamp": "2025-12-30T12:20:19.245727"
+        },
+        {
+          "asset": "https://assettracking.thegoldenelement.com/media/Inter-roman.var-5VGNBR6A.woff2?v=3.19",
+          "asset_type": "url",
+          "total_score": 10,
+          "priority_level": "minimal",
+          "scoring_factors": [],
+          "recommended_attacks": [],
+          "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+          "metadata": {
+            "found_in": "https://assettracking.thegoldenelement.com"
+          },
+          "ranked_position": 23,
+          "timestamp": "2025-12-30T12:20:19.246735"
+        },
+        {
+          "asset": "https://assettracking.thegoldenelement.com/media/jqx-icons-6MUFLTLQ.ttf",
+          "asset_type": "url",
+          "total_score": 10,
+          "priority_level": "minimal",
+          "scoring_factors": [],
+          "recommended_attacks": [],
+          "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+          "metadata": {
+            "found_in": "https://assettracking.thegoldenelement.com"
+          },
+          "ranked_position": 24,
+          "timestamp": "2025-12-30T12:20:19.248731"
+        },
+        {
+          "asset": "https://assettracking.thegoldenelement.com/title",
+          "asset_type": "url",
+          "total_score": 10,
+          "priority_level": "minimal",
+          "scoring_factors": [],
+          "recommended_attacks": [],
+          "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+          "metadata": {
+            "found_in": "https://assettracking.thegoldenelement.com"
+          },
+          "ranked_position": 25,
+          "timestamp": "2025-12-30T12:20:19.248731"
+        },
+        {
+          "asset": "https://assettracking.thegoldenelement.com/",
+          "asset_type": "url",
+          "total_score": 10,
+          "priority_level": "minimal",
+          "scoring_factors": [],
+          "recommended_attacks": [],
+          "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+          "metadata": {
+            "found_in": "https://assettracking.thegoldenelement.com"
+          },
+          "ranked_position": 26,
+          "timestamp": "2025-12-30T12:20:19.248731"
+        },
+        {
+          "asset": "https://assettracking.thegoldenelement.com/assets/images/brand-logos/favicon.ico",
+          "asset_type": "url",
+          "total_score": 10,
+          "priority_level": "minimal",
+          "scoring_factors": [],
+          "recommended_attacks": [],
+          "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+          "metadata": {
+            "found_in": "https://assettracking.thegoldenelement.com"
+          },
+          "ranked_position": 27,
+          "timestamp": "2025-12-30T12:20:19.249730"
+        }
+      ]
+    },
+    "summary": {
+      "critical": 2,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "minimal": 25
+    },
+    "top_targets": [
+      {
+        "asset": "https://assettracking.thegoldenelement.com/.htaccess",
+        "asset_type": "sensitive_file",
+        "total_score": 98.0,
+        "priority_level": "critical",
+        "scoring_factors": [
+          {
+            "category": "sensitive_endpoint",
+            "description": "Sensitive file/endpoint detected",
+            "score": 70,
+            "weight": 1.4,
+            "weighted_score": 98.0,
+            "reasoning": "Sensitive file accessible: .htaccess (forbidden but exists - bypass possible)"
+          }
+        ],
+        "recommended_attacks": [
+          "File download and analysis",
+          "Credential extraction",
+          "Source code review"
+        ],
+        "risk_summary": "CRITICAL priority target (score: 98.0/100). Key factors: Sensitive file/endpoint detected.",
+        "metadata": {
+          "file_path": ".htaccess",
+          "risk": "medium"
+        },
+        "ranked_position": 1,
+        "timestamp": "2025-12-30T12:20:19.224727"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/.htpasswd",
+        "asset_type": "sensitive_file",
+        "total_score": 98.0,
+        "priority_level": "critical",
+        "scoring_factors": [
+          {
+            "category": "sensitive_endpoint",
+            "description": "Sensitive file/endpoint detected",
+            "score": 70,
+            "weight": 1.4,
+            "weighted_score": 98.0,
+            "reasoning": "Sensitive file accessible: .htpasswd (forbidden but exists - bypass possible)"
+          }
+        ],
+        "recommended_attacks": [
+          "File download and analysis",
+          "Credential extraction",
+          "Source code review"
+        ],
+        "risk_summary": "CRITICAL priority target (score: 98.0/100). Key factors: Sensitive file/endpoint detected.",
+        "metadata": {
+          "file_path": ".htpasswd",
+          "risk": "medium"
+        },
+        "ranked_position": 2,
+        "timestamp": "2025-12-30T12:20:19.225727"
+      },
+      {
+        "asset": "Apache/2.4.52 (Ubuntu)",
+        "asset_type": "technology",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "header": "Server",
+          "url": "https://assettracking.thegoldenelement.com"
+        },
+        "ranked_position": 3,
+        "timestamp": "2025-12-30T12:20:19.227728"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/media/jqx-icons-4VPAMHGO.woff",
+        "asset_type": "url",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "ranked_position": 4,
+        "timestamp": "2025-12-30T12:20:19.227728"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/head",
+        "asset_type": "url",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "ranked_position": 5,
+        "timestamp": "2025-12-30T12:20:19.228729"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/0;--tw-shadow-colored:0",
+        "asset_type": "url",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "ranked_position": 6,
+        "timestamp": "2025-12-30T12:20:19.230735"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/40;--tw-shadow-colored:0",
+        "asset_type": "url",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "ranked_position": 7,
+        "timestamp": "2025-12-30T12:20:19.230735"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/style",
+        "asset_type": "url",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "ranked_position": 8,
+        "timestamp": "2025-12-30T12:20:19.231733"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/body",
+        "asset_type": "url",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "ranked_position": 9,
+        "timestamp": "2025-12-30T12:20:19.231733"
+      },
+      {
+        "asset": "https://assettracking.thegoldenelement.com/media/Inter-italic.var-YRHKCDAA.woff2?v=3.19",
+        "asset_type": "url",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "found_in": "https://assettracking.thegoldenelement.com"
+        },
+        "ranked_position": 10,
+        "timestamp": "2025-12-30T12:20:19.232730"
+      }
+    ],
+    "timestamp": "2025-12-30T12:20:19.264792"
+  },
+  "attack_advisory": null,
+  "recon_decision": {
+    "decision": "stop",
+    "confidence": 0.21,
+    "primary_reason": "Average exploitability score 27.6 below threshold 30.0",
+    "stop_conditions": [
+      {
+        "condition_type": "iteration_limit",
+        "met": false,
+        "score": 0,
+        "description": "Iteration 1/10",
+        "evidence": "9 iterations remaining"
+      },
+      {
+        "condition_type": "time_limit",
+        "met": false,
+        "score": 0,
+        "description": "Time elapsed: 184s / 3600s",
+        "evidence": "3416s remaining"
+      },
+      {
+        "condition_type": "score_threshold",
+        "met": true,
+        "score": 4,
+        "description": "Average exploitability score 27.6 below threshold 30.0",
+        "evidence": "Only low-value targets remaining - not worth continued recon"
+      }
+    ],
+    "recommendations": [
+      "Transition to exploitation phase",
+      "Analyze prioritized targets",
+      "Begin attack execution on highest-priority assets"
+    ],
+    "metadata": {
+      "iteration": 1,
+      "conditions_evaluated": 3,
+      "conditions_met": 1,
+      "critical_stop": false,
+      "non_critical_stop": true
+    },
+    "timestamp": "2025-12-30T12:22:11.070957"
+  },
+  "iteration": 1,
+  "should_continue_recon": false,
+  "start_time": "2025-12-30T12:19:07.377573",
+  "state_history": [],
+  "metadata": {
+    "max_iterations": 3
+  },
+  "errors": [
+    "LLM advisor error: 'NoneType' object has no attribute 'get'"
+  ]
+}

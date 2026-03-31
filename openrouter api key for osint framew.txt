@@ -1,0 +1,3 @@
+openrouter api key for osint framework project:
+
+api key:  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

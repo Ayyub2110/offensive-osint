@@ -1,0 +1,2206 @@
+{
+  "username": "ansari",
+  "target_name": "Ayub",
+  "domain": "instagram.com",
+  "target_url": "https://instagram.com",
+  "username_correlation": {
+    "username": "ansari",
+    "platforms_checked": 4,
+    "results": [
+      {
+        "platform": "github",
+        "username": "ansari",
+        "status": "exists",
+        "url": "https://github.com/ansari",
+        "status_code": 200,
+        "response_time_ms": 953.0,
+        "timestamp": "2026-03-31T09:56:43.283538",
+        "notes": null
+      },
+      {
+        "platform": "reddit",
+        "username": "ansari",
+        "status": "exists",
+        "url": "https://www.reddit.com/user/ansari/about.json",
+        "status_code": 200,
+        "response_time_ms": 687.0,
+        "timestamp": "2026-03-31T09:56:43.287738",
+        "notes": null
+      },
+      {
+        "platform": "twitter",
+        "username": "ansari",
+        "status": "error",
+        "url": "https://twitter.com/ansari",
+        "status_code": null,
+        "response_time_ms": null,
+        "timestamp": "2026-03-31T09:56:43.148822",
+        "notes": "Client error: 400, message='Got more than 8190 bytes when reading: b\"connect-src \\'self\\' blob: https://fonts.googleapis.com/css https://mapsresources-pa.googleapis.com ht...\".', url='https://twitter.com/ansari'"
+      },
+      {
+        "platform": "instagram",
+        "username": "ansari",
+        "status": "exists",
+        "url": "https://www.instagram.com/ansari/",
+        "status_code": 200,
+        "response_time_ms": 797.0,
+        "timestamp": "2026-03-31T09:56:43.395471",
+        "notes": null
+      }
+    ],
+    "summary": {
+      "total": 4,
+      "exists": 3,
+      "not_found": 0,
+      "uncertain": 0,
+      "errors": 1,
+      "timeouts": 0,
+      "platforms_found": [
+        "github",
+        "reddit",
+        "instagram"
+      ],
+      "avg_response_time_ms": 812.33
+    },
+    "timestamp": "2026-03-31T09:56:43.395471"
+  },
+  "email_patterns": {
+    "identifier": "Ayub",
+    "domain": "instagram.com",
+    "domain_validation": {
+      "domain": "instagram.com",
+      "is_valid": true,
+      "has_mx": true,
+      "mx_records": [
+        "10 mxa-00082601.gslb.pphosted.com",
+        "10 mxb-00082601.gslb.pphosted.com"
+      ],
+      "smtp_servers": [
+        "mxa-00082601.gslb.pphosted.com",
+        "mxb-00082601.gslb.pphosted.com"
+      ],
+      "validation_time": "2026-03-31T09:56:43.447356",
+      "error": null
+    },
+    "patterns": [
+      {
+        "email": "ayub.@instagram.com",
+        "pattern": "{first}.{last}",
+        "confidence": 0.8,
+        "source": "common",
+        "notes": null
+      },
+      {
+        "email": "ayub@instagram.com",
+        "pattern": "{first}{last}",
+        "confidence": 0.8,
+        "source": "common",
+        "notes": null
+      },
+      {
+        "email": "ayub_@instagram.com",
+        "pattern": "{first}_{last}",
+        "confidence": 0.8,
+        "source": "common",
+        "notes": null
+      },
+      {
+        "email": "ayub-@instagram.com",
+        "pattern": "{first}-{last}",
+        "confidence": 0.8,
+        "source": "common",
+        "notes": null
+      },
+      {
+        "email": "a@instagram.com",
+        "pattern": "{f}{last}",
+        "confidence": 0.5,
+        "source": "standard",
+        "notes": null
+      },
+      {
+        "email": "a.@instagram.com",
+        "pattern": "{f}.{last}",
+        "confidence": 0.5,
+        "source": "standard",
+        "notes": null
+      },
+      {
+        "email": ".ayub@instagram.com",
+        "pattern": "{last}.{first}",
+        "confidence": 0.5,
+        "source": "standard",
+        "notes": null
+      }
+    ],
+    "name_variations": [
+      "Ayub"
+    ],
+    "total_patterns": 7,
+    "timestamp": "2026-03-31T09:56:43.399470"
+  },
+  "asset_discovery": {
+    "domain": "instagram.com",
+    "total_assets": 28,
+    "assets": [
+      {
+        "asset": "www.instagram.com",
+        "asset_type": "subdomain",
+        "source": "wordlist_enumeration",
+        "status_code": null,
+        "ip_addresses": [
+          "57.144.54.34"
+        ],
+        "metadata": {
+          "subdomain_prefix": "www"
+        },
+        "discovered_at": "2026-03-31T09:56:43.533276"
+      },
+      {
+        "asset": "autodiscover.instagram.com",
+        "asset_type": "subdomain",
+        "source": "wordlist_enumeration",
+        "status_code": null,
+        "ip_addresses": [
+          "40.104.77.104",
+          "52.98.123.184",
+          "40.99.9.40",
+          "40.99.31.152"
+        ],
+        "metadata": {
+          "subdomain_prefix": "autodiscover"
+        },
+        "discovered_at": "2026-03-31T09:56:44.322375"
+      },
+      {
+        "asset": "m.instagram.com",
+        "asset_type": "subdomain",
+        "source": "wordlist_enumeration",
+        "status_code": null,
+        "ip_addresses": [
+          "57.144.54.34"
+        ],
+        "metadata": {
+          "subdomain_prefix": "m"
+        },
+        "discovered_at": "2026-03-31T09:56:44.486191"
+      },
+      {
+        "asset": "blog.instagram.com",
+        "asset_type": "subdomain",
+        "source": "wordlist_enumeration",
+        "status_code": null,
+        "ip_addresses": [
+          "57.144.54.141"
+        ],
+        "metadata": {
+          "subdomain_prefix": "blog"
+        },
+        "discovered_at": "2026-03-31T09:56:44.739927"
+      },
+      {
+        "asset": "admin.instagram.com",
+        "asset_type": "subdomain",
+        "source": "wordlist_enumeration",
+        "status_code": null,
+        "ip_addresses": [
+          "57.144.54.134"
+        ],
+        "metadata": {
+          "subdomain_prefix": "admin"
+        },
+        "discovered_at": "2026-03-31T09:56:45.024366"
+      },
+      {
+        "asset": "secure.instagram.com",
+        "asset_type": "subdomain",
+        "source": "wordlist_enumeration",
+        "status_code": null,
+        "ip_addresses": [
+          "57.144.54.139"
+        ],
+        "metadata": {
+          "subdomain_prefix": "secure"
+        },
+        "discovered_at": "2026-03-31T09:56:46.238643"
+      },
+      {
+        "asset": "api.instagram.com",
+        "asset_type": "subdomain",
+        "source": "wordlist_enumeration",
+        "status_code": null,
+        "ip_addresses": [
+          "57.144.54.192"
+        ],
+        "metadata": {
+          "subdomain_prefix": "api"
+        },
+        "discovered_at": "2026-03-31T09:56:47.276081"
+      },
+      {
+        "asset": "https://instagram.com/accounts/login/*?next=",
+        "asset_type": "endpoint",
+        "source": "robots.txt",
+        "status_code": null,
+        "ip_addresses": [],
+        "metadata": {
+          "directive": "disallow",
+          "path": "/accounts/login/*?next=",
+          "note": "Restricted in robots.txt - high value target"
+        },
+        "discovered_at": "2026-03-31T09:56:53.033481"
+      },
+      {
+        "asset": "https://instagram.com/ajax/",
+        "asset_type": "endpoint",
+        "source": "robots.txt",
+        "status_code": null,
+        "ip_addresses": [],
+        "metadata": {
+          "directive": "disallow",
+          "path": "/ajax/",
+          "note": "Restricted in robots.txt - high value target"
+        },
+        "discovered_at": "2026-03-31T09:56:53.033481"
+      },
+      {
+        "asset": "https://instagram.com/client_error/",
+        "asset_type": "endpoint",
+        "source": "robots.txt",
+        "status_code": null,
+        "ip_addresses": [],
+        "metadata": {
+          "directive": "disallow",
+          "path": "/client_error/",
+          "note": "Restricted in robots.txt - high value target"
+        },
+        "discovered_at": "2026-03-31T09:56:53.033481"
+      },
+      {
+        "asset": "https://instagram.com/direct/",
+        "asset_type": "endpoint",
+        "source": "robots.txt",
+        "status_code": null,
+        "ip_addresses": [],
+        "metadata": {
+          "directive": "disallow",
+          "path": "/direct/",
+          "note": "Restricted in robots.txt - high value target"
+        },
+        "discovered_at": "2026-03-31T09:56:53.033481"
+      },
+      {
+        "asset": "https://instagram.com/logging/",
+        "asset_type": "endpoint",
+        "source": "robots.txt",
+        "status_code": null,
+        "ip_addresses": [],
+        "metadata": {
+          "directive": "disallow",
+          "path": "/logging/",
+          "note": "Restricted in robots.txt - high value target"
+        },
+        "discovered_at": "2026-03-31T09:56:53.033481"
+      },
+      {
+        "asset": "https://instagram.com/publicapi/",
+        "asset_type": "endpoint",
+        "source": "robots.txt",
+        "status_code": null,
+        "ip_addresses": [],
+        "metadata": {
+          "directive": "disallow",
+          "path": "/publicapi/",
+          "note": "Restricted in robots.txt - high value target"
+        },
+        "discovered_at": "2026-03-31T09:56:53.033481"
+      },
+      {
+        "asset": "https://instagram.com/qp/batch_fetch_web/",
+        "asset_type": "endpoint",
+        "source": "robots.txt",
+        "status_code": null,
+        "ip_addresses": [],
+        "metadata": {
+          "directive": "disallow",
+          "path": "/qp/batch_fetch_web/",
+          "note": "Restricted in robots.txt - high value target"
+        },
+        "discovered_at": "2026-03-31T09:56:53.033481"
+      },
+      {
+        "asset": "https://instagram.com/query/",
+        "asset_type": "endpoint",
+        "source": "robots.txt",
+        "status_code": null,
+        "ip_addresses": [],
+        "metadata": {
+          "directive": "disallow",
+          "path": "/query/",
+          "note": "Restricted in robots.txt - high value target"
+        },
+        "discovered_at": "2026-03-31T09:56:53.033481"
+      },
+      {
+        "asset": "https://instagram.com/*/c/",
+        "asset_type": "endpoint",
+        "source": "robots.txt",
+        "status_code": null,
+        "ip_addresses": [],
+        "metadata": {
+          "directive": "disallow",
+          "path": "/*/c/",
+          "note": "Restricted in robots.txt - high value target"
+        },
+        "discovered_at": "2026-03-31T09:56:53.033481"
+      },
+      {
+        "asset": "https://instagram.com/*/comments/",
+        "asset_type": "endpoint",
+        "source": "robots.txt",
+        "status_code": null,
+        "ip_addresses": [],
+        "metadata": {
+          "directive": "disallow",
+          "path": "/*/comments/",
+          "note": "Restricted in robots.txt - high value target"
+        },
+        "discovered_at": "2026-03-31T09:56:53.033481"
+      },
+      {
+        "asset": "https://instagram.com/*/liked_by/",
+        "asset_type": "endpoint",
+        "source": "robots.txt",
+        "status_code": null,
+        "ip_addresses": [],
+        "metadata": {
+          "directive": "disallow",
+          "path": "/*/liked_by/",
+          "note": "Restricted in robots.txt - high value target"
+        },
+        "discovered_at": "2026-03-31T09:56:53.033481"
+      },
+      {
+        "asset": "https://www.instagram.com/sitemap/ig_seo_guide_sitemap.xml.gz",
+        "asset_type": "sitemap",
+        "source": "robots.txt",
+        "status_code": null,
+        "ip_addresses": [],
+        "metadata": {
+          "type": "sitemap_reference"
+        },
+        "discovered_at": "2026-03-31T09:56:53.036483"
+      },
+      {
+        "asset": "https://www.instagram.com/sitemap/ig_seo_images_sitemap.xml.gz",
+        "asset_type": "sitemap",
+        "source": "robots.txt",
+        "status_code": null,
+        "ip_addresses": [],
+        "metadata": {
+          "type": "sitemap_reference"
+        },
+        "discovered_at": "2026-03-31T09:56:53.036483"
+      },
+      {
+        "asset": "https://www.instagram.com/sitemap/ig_seo_profile_sitemap.xml.gz",
+        "asset_type": "sitemap",
+        "source": "robots.txt",
+        "status_code": null,
+        "ip_addresses": [],
+        "metadata": {
+          "type": "sitemap_reference"
+        },
+        "discovered_at": "2026-03-31T09:56:53.036483"
+      },
+      {
+        "asset": "https://www.instagram.com/sitemap/ig_seo_profile_sitemap_small_accounts.xml.gz",
+        "asset_type": "sitemap",
+        "source": "robots.txt",
+        "status_code": null,
+        "ip_addresses": [],
+        "metadata": {
+          "type": "sitemap_reference"
+        },
+        "discovered_at": "2026-03-31T09:56:53.036483"
+      },
+      {
+        "asset": "https://www.instagram.com/sitemap/ig_seo_location_sitemap.xml.gz",
+        "asset_type": "sitemap",
+        "source": "robots.txt",
+        "status_code": null,
+        "ip_addresses": [],
+        "metadata": {
+          "type": "sitemap_reference"
+        },
+        "discovered_at": "2026-03-31T09:56:53.036483"
+      },
+      {
+        "asset": "https://www.instagram.com/sitemap/ig_seo_audio_sitemap.xml.gz",
+        "asset_type": "sitemap",
+        "source": "robots.txt",
+        "status_code": null,
+        "ip_addresses": [],
+        "metadata": {
+          "type": "sitemap_reference"
+        },
+        "discovered_at": "2026-03-31T09:56:53.036483"
+      },
+      {
+        "asset": "https://www.instagram.com/sitemap/dim_ig_logged_out_web_keyword_ent.xml.gz",
+        "asset_type": "sitemap",
+        "source": "robots.txt",
+        "status_code": null,
+        "ip_addresses": [],
+        "metadata": {
+          "type": "sitemap_reference"
+        },
+        "discovered_at": "2026-03-31T09:56:53.036483"
+      },
+      {
+        "asset": "default-src *.facebook.com *.fbcdn.net *.instagram.com blob:;script-src *.instagram.com static.cdninstagram.com *.facebook.com *.fbcdn.net *.facebook.net 127.0.0.1:* 'nonce-M1nFTzrz' blob: 'self' 'unsafe-eval' https://*.google-analytics.com https://translate.google.com https://apis.google.com https://accounts.google.com;style-src *.instagram.com static.cdninstagram.com data: blob: 'unsafe-inline' *.fbcdn.net *.facebook.com https://accounts.google.com;connect-src *.instagram.com wss://edge-chat.instagram.com connect.facebook.net *.facebook.com facebook.com *.fbcdn.net *.facebook.net wss://*.facebook.com:* ws://localhost:* blob: *.cdninstagram.com wss://*.instagram.com:* 'self' https://accounts.google.com https://meta.privacy-gateway.cloudflare.com/relay;font-src *.instagram.com static.cdninstagram.com data: *.fbcdn.net *.intern.facebook.com *.facebook.com https://fonts.gstatic.com;img-src *.instagram.com *.facebook.com *.fbcdn.net data: *.cdninstagram.com *.whatsapp.net blob: *.fbsbx.com android-webview-video-poster: *.oculuscdn.com *.giphy.com *.tenor.co *.tenor.com www.googleadservices.com *.doubleclick.net *.google.com *.google.co.uk https://www.gstatic.com https://*.google-analytics.com;media-src *.facebook.com *.fbcdn.net *.instagram.com *.cdninstagram.com *.fbsbx.com data: blob: https://*.giphy.com *.tenor.co *.tenor.com;child-src *.facebook.com *.fbcdn.net *.instagram.com data: blob:;frame-src *.instagram.com *.facebook.com *.fbsbx.com fbsbx.com data: www.googleadservices.com *.doubleclick.net *.google.com *.google.co.uk;manifest-src *.facebook.com *.fbcdn.net *.instagram.com data: blob:;object-src *.facebook.com *.fbcdn.net *.instagram.com data: blob:;block-all-mixed-content;upgrade-insecure-requests;",
+        "asset_type": "technology",
+        "source": "http_headers",
+        "status_code": null,
+        "ip_addresses": [],
+        "metadata": {
+          "header": "Content-Security-Policy",
+          "url": "https://instagram.com"
+        },
+        "discovered_at": "2026-03-31T09:56:57.891580"
+      },
+      {
+        "asset": "https://instagram.com/",
+        "asset_type": "url",
+        "source": "response_body",
+        "status_code": null,
+        "ip_addresses": [],
+        "metadata": {
+          "found_in": "https://instagram.com"
+        },
+        "discovered_at": "2026-03-31T09:56:57.978967"
+      },
+      {
+        "asset": "https://instagram.com/x-icon",
+        "asset_type": "url",
+        "source": "response_body",
+        "status_code": null,
+        "ip_addresses": [],
+        "metadata": {
+          "found_in": "https://instagram.com"
+        },
+        "discovered_at": "2026-03-31T09:56:57.978967"
+      }
+    ],
+    "categorized": {
+      "subdomain": [
+        {
+          "asset": "www.instagram.com",
+          "asset_type": "subdomain",
+          "source": "wordlist_enumeration",
+          "status_code": null,
+          "ip_addresses": [
+            "57.144.54.34"
+          ],
+          "metadata": {
+            "subdomain_prefix": "www"
+          },
+          "discovered_at": "2026-03-31T09:56:43.533276"
+        },
+        {
+          "asset": "autodiscover.instagram.com",
+          "asset_type": "subdomain",
+          "source": "wordlist_enumeration",
+          "status_code": null,
+          "ip_addresses": [
+            "40.104.77.104",
+            "52.98.123.184",
+            "40.99.9.40",
+            "40.99.31.152"
+          ],
+          "metadata": {
+            "subdomain_prefix": "autodiscover"
+          },
+          "discovered_at": "2026-03-31T09:56:44.322375"
+        },
+        {
+          "asset": "m.instagram.com",
+          "asset_type": "subdomain",
+          "source": "wordlist_enumeration",
+          "status_code": null,
+          "ip_addresses": [
+            "57.144.54.34"
+          ],
+          "metadata": {
+            "subdomain_prefix": "m"
+          },
+          "discovered_at": "2026-03-31T09:56:44.486191"
+        },
+        {
+          "asset": "blog.instagram.com",
+          "asset_type": "subdomain",
+          "source": "wordlist_enumeration",
+          "status_code": null,
+          "ip_addresses": [
+            "57.144.54.141"
+          ],
+          "metadata": {
+            "subdomain_prefix": "blog"
+          },
+          "discovered_at": "2026-03-31T09:56:44.739927"
+        },
+        {
+          "asset": "admin.instagram.com",
+          "asset_type": "subdomain",
+          "source": "wordlist_enumeration",
+          "status_code": null,
+          "ip_addresses": [
+            "57.144.54.134"
+          ],
+          "metadata": {
+            "subdomain_prefix": "admin"
+          },
+          "discovered_at": "2026-03-31T09:56:45.024366"
+        },
+        {
+          "asset": "secure.instagram.com",
+          "asset_type": "subdomain",
+          "source": "wordlist_enumeration",
+          "status_code": null,
+          "ip_addresses": [
+            "57.144.54.139"
+          ],
+          "metadata": {
+            "subdomain_prefix": "secure"
+          },
+          "discovered_at": "2026-03-31T09:56:46.238643"
+        },
+        {
+          "asset": "api.instagram.com",
+          "asset_type": "subdomain",
+          "source": "wordlist_enumeration",
+          "status_code": null,
+          "ip_addresses": [
+            "57.144.54.192"
+          ],
+          "metadata": {
+            "subdomain_prefix": "api"
+          },
+          "discovered_at": "2026-03-31T09:56:47.276081"
+        }
+      ],
+      "endpoint": [
+        {
+          "asset": "https://instagram.com/accounts/login/*?next=",
+          "asset_type": "endpoint",
+          "source": "robots.txt",
+          "status_code": null,
+          "ip_addresses": [],
+          "metadata": {
+            "directive": "disallow",
+            "path": "/accounts/login/*?next=",
+            "note": "Restricted in robots.txt - high value target"
+          },
+          "discovered_at": "2026-03-31T09:56:53.033481"
+        },
+        {
+          "asset": "https://instagram.com/ajax/",
+          "asset_type": "endpoint",
+          "source": "robots.txt",
+          "status_code": null,
+          "ip_addresses": [],
+          "metadata": {
+            "directive": "disallow",
+            "path": "/ajax/",
+            "note": "Restricted in robots.txt - high value target"
+          },
+          "discovered_at": "2026-03-31T09:56:53.033481"
+        },
+        {
+          "asset": "https://instagram.com/client_error/",
+          "asset_type": "endpoint",
+          "source": "robots.txt",
+          "status_code": null,
+          "ip_addresses": [],
+          "metadata": {
+            "directive": "disallow",
+            "path": "/client_error/",
+            "note": "Restricted in robots.txt - high value target"
+          },
+          "discovered_at": "2026-03-31T09:56:53.033481"
+        },
+        {
+          "asset": "https://instagram.com/direct/",
+          "asset_type": "endpoint",
+          "source": "robots.txt",
+          "status_code": null,
+          "ip_addresses": [],
+          "metadata": {
+            "directive": "disallow",
+            "path": "/direct/",
+            "note": "Restricted in robots.txt - high value target"
+          },
+          "discovered_at": "2026-03-31T09:56:53.033481"
+        },
+        {
+          "asset": "https://instagram.com/logging/",
+          "asset_type": "endpoint",
+          "source": "robots.txt",
+          "status_code": null,
+          "ip_addresses": [],
+          "metadata": {
+            "directive": "disallow",
+            "path": "/logging/",
+            "note": "Restricted in robots.txt - high value target"
+          },
+          "discovered_at": "2026-03-31T09:56:53.033481"
+        },
+        {
+          "asset": "https://instagram.com/publicapi/",
+          "asset_type": "endpoint",
+          "source": "robots.txt",
+          "status_code": null,
+          "ip_addresses": [],
+          "metadata": {
+            "directive": "disallow",
+            "path": "/publicapi/",
+            "note": "Restricted in robots.txt - high value target"
+          },
+          "discovered_at": "2026-03-31T09:56:53.033481"
+        },
+        {
+          "asset": "https://instagram.com/qp/batch_fetch_web/",
+          "asset_type": "endpoint",
+          "source": "robots.txt",
+          "status_code": null,
+          "ip_addresses": [],
+          "metadata": {
+            "directive": "disallow",
+            "path": "/qp/batch_fetch_web/",
+            "note": "Restricted in robots.txt - high value target"
+          },
+          "discovered_at": "2026-03-31T09:56:53.033481"
+        },
+        {
+          "asset": "https://instagram.com/query/",
+          "asset_type": "endpoint",
+          "source": "robots.txt",
+          "status_code": null,
+          "ip_addresses": [],
+          "metadata": {
+            "directive": "disallow",
+            "path": "/query/",
+            "note": "Restricted in robots.txt - high value target"
+          },
+          "discovered_at": "2026-03-31T09:56:53.033481"
+        },
+        {
+          "asset": "https://instagram.com/*/c/",
+          "asset_type": "endpoint",
+          "source": "robots.txt",
+          "status_code": null,
+          "ip_addresses": [],
+          "metadata": {
+            "directive": "disallow",
+            "path": "/*/c/",
+            "note": "Restricted in robots.txt - high value target"
+          },
+          "discovered_at": "2026-03-31T09:56:53.033481"
+        },
+        {
+          "asset": "https://instagram.com/*/comments/",
+          "asset_type": "endpoint",
+          "source": "robots.txt",
+          "status_code": null,
+          "ip_addresses": [],
+          "metadata": {
+            "directive": "disallow",
+            "path": "/*/comments/",
+            "note": "Restricted in robots.txt - high value target"
+          },
+          "discovered_at": "2026-03-31T09:56:53.033481"
+        },
+        {
+          "asset": "https://instagram.com/*/liked_by/",
+          "asset_type": "endpoint",
+          "source": "robots.txt",
+          "status_code": null,
+          "ip_addresses": [],
+          "metadata": {
+            "directive": "disallow",
+            "path": "/*/liked_by/",
+            "note": "Restricted in robots.txt - high value target"
+          },
+          "discovered_at": "2026-03-31T09:56:53.033481"
+        }
+      ],
+      "sitemap": [
+        {
+          "asset": "https://www.instagram.com/sitemap/ig_seo_guide_sitemap.xml.gz",
+          "asset_type": "sitemap",
+          "source": "robots.txt",
+          "status_code": null,
+          "ip_addresses": [],
+          "metadata": {
+            "type": "sitemap_reference"
+          },
+          "discovered_at": "2026-03-31T09:56:53.036483"
+        },
+        {
+          "asset": "https://www.instagram.com/sitemap/ig_seo_images_sitemap.xml.gz",
+          "asset_type": "sitemap",
+          "source": "robots.txt",
+          "status_code": null,
+          "ip_addresses": [],
+          "metadata": {
+            "type": "sitemap_reference"
+          },
+          "discovered_at": "2026-03-31T09:56:53.036483"
+        },
+        {
+          "asset": "https://www.instagram.com/sitemap/ig_seo_profile_sitemap.xml.gz",
+          "asset_type": "sitemap",
+          "source": "robots.txt",
+          "status_code": null,
+          "ip_addresses": [],
+          "metadata": {
+            "type": "sitemap_reference"
+          },
+          "discovered_at": "2026-03-31T09:56:53.036483"
+        },
+        {
+          "asset": "https://www.instagram.com/sitemap/ig_seo_profile_sitemap_small_accounts.xml.gz",
+          "asset_type": "sitemap",
+          "source": "robots.txt",
+          "status_code": null,
+          "ip_addresses": [],
+          "metadata": {
+            "type": "sitemap_reference"
+          },
+          "discovered_at": "2026-03-31T09:56:53.036483"
+        },
+        {
+          "asset": "https://www.instagram.com/sitemap/ig_seo_location_sitemap.xml.gz",
+          "asset_type": "sitemap",
+          "source": "robots.txt",
+          "status_code": null,
+          "ip_addresses": [],
+          "metadata": {
+            "type": "sitemap_reference"
+          },
+          "discovered_at": "2026-03-31T09:56:53.036483"
+        },
+        {
+          "asset": "https://www.instagram.com/sitemap/ig_seo_audio_sitemap.xml.gz",
+          "asset_type": "sitemap",
+          "source": "robots.txt",
+          "status_code": null,
+          "ip_addresses": [],
+          "metadata": {
+            "type": "sitemap_reference"
+          },
+          "discovered_at": "2026-03-31T09:56:53.036483"
+        },
+        {
+          "asset": "https://www.instagram.com/sitemap/dim_ig_logged_out_web_keyword_ent.xml.gz",
+          "asset_type": "sitemap",
+          "source": "robots.txt",
+          "status_code": null,
+          "ip_addresses": [],
+          "metadata": {
+            "type": "sitemap_reference"
+          },
+          "discovered_at": "2026-03-31T09:56:53.036483"
+        }
+      ],
+      "technology": [
+        {
+          "asset": "default-src *.facebook.com *.fbcdn.net *.instagram.com blob:;script-src *.instagram.com static.cdninstagram.com *.facebook.com *.fbcdn.net *.facebook.net 127.0.0.1:* 'nonce-M1nFTzrz' blob: 'self' 'unsafe-eval' https://*.google-analytics.com https://translate.google.com https://apis.google.com https://accounts.google.com;style-src *.instagram.com static.cdninstagram.com data: blob: 'unsafe-inline' *.fbcdn.net *.facebook.com https://accounts.google.com;connect-src *.instagram.com wss://edge-chat.instagram.com connect.facebook.net *.facebook.com facebook.com *.fbcdn.net *.facebook.net wss://*.facebook.com:* ws://localhost:* blob: *.cdninstagram.com wss://*.instagram.com:* 'self' https://accounts.google.com https://meta.privacy-gateway.cloudflare.com/relay;font-src *.instagram.com static.cdninstagram.com data: *.fbcdn.net *.intern.facebook.com *.facebook.com https://fonts.gstatic.com;img-src *.instagram.com *.facebook.com *.fbcdn.net data: *.cdninstagram.com *.whatsapp.net blob: *.fbsbx.com android-webview-video-poster: *.oculuscdn.com *.giphy.com *.tenor.co *.tenor.com www.googleadservices.com *.doubleclick.net *.google.com *.google.co.uk https://www.gstatic.com https://*.google-analytics.com;media-src *.facebook.com *.fbcdn.net *.instagram.com *.cdninstagram.com *.fbsbx.com data: blob: https://*.giphy.com *.tenor.co *.tenor.com;child-src *.facebook.com *.fbcdn.net *.instagram.com data: blob:;frame-src *.instagram.com *.facebook.com *.fbsbx.com fbsbx.com data: www.googleadservices.com *.doubleclick.net *.google.com *.google.co.uk;manifest-src *.facebook.com *.fbcdn.net *.instagram.com data: blob:;object-src *.facebook.com *.fbcdn.net *.instagram.com data: blob:;block-all-mixed-content;upgrade-insecure-requests;",
+          "asset_type": "technology",
+          "source": "http_headers",
+          "status_code": null,
+          "ip_addresses": [],
+          "metadata": {
+            "header": "Content-Security-Policy",
+            "url": "https://instagram.com"
+          },
+          "discovered_at": "2026-03-31T09:56:57.891580"
+        }
+      ],
+      "url": [
+        {
+          "asset": "https://instagram.com/",
+          "asset_type": "url",
+          "source": "response_body",
+          "status_code": null,
+          "ip_addresses": [],
+          "metadata": {
+            "found_in": "https://instagram.com"
+          },
+          "discovered_at": "2026-03-31T09:56:57.978967"
+        },
+        {
+          "asset": "https://instagram.com/x-icon",
+          "asset_type": "url",
+          "source": "response_body",
+          "status_code": null,
+          "ip_addresses": [],
+          "metadata": {
+            "found_in": "https://instagram.com"
+          },
+          "discovered_at": "2026-03-31T09:56:57.978967"
+        }
+      ]
+    },
+    "summary": {
+      "subdomain": 7,
+      "endpoint": 11,
+      "sitemap": 7,
+      "technology": 1,
+      "url": 2
+    },
+    "timestamp": "2026-03-31T09:56:57.980975"
+  },
+  "tech_fingerprint": {
+    "url": "https://instagram.com",
+    "web_server": {
+      "type": null,
+      "version": null,
+      "raw": null
+    },
+    "backend": {
+      "detected": [
+        {
+          "technology": "php",
+          "confidence": 10,
+          "evidence": [
+            "Extension: .php"
+          ]
+        },
+        {
+          "technology": "java",
+          "confidence": 10,
+          "evidence": [
+            "Extension: .do"
+          ]
+        }
+      ],
+      "primary": {
+        "technology": "php",
+        "confidence": 10,
+        "evidence": [
+          "Extension: .php"
+        ]
+      }
+    },
+    "frontend": {
+      "frameworks": []
+    },
+    "auth_mechanisms": {
+      "session_based": false,
+      "token_based": false,
+      "oauth": true,
+      "jwt": false,
+      "basic_auth": false,
+      "cookie_names": [
+        "csrftoken",
+        "mid"
+      ],
+      "tokens_found": [],
+      "oauth_providers": [
+        "google",
+        "facebook",
+        "microsoft",
+        "twitter",
+        "linkedin"
+      ]
+    },
+    "security": {
+      "waf_cdn": {
+        "detected": [
+          {
+            "name": "cloudflare",
+            "type": "CDN",
+            "confidence": 50,
+            "evidence": [
+              "Pattern in headers: cloudflare",
+              "Pattern in HTML: cloudflare"
+            ]
+          },
+          {
+            "name": "fastly",
+            "type": "CDN",
+            "confidence": 20,
+            "evidence": [
+              "Pattern in HTML: fastly"
+            ]
+          }
+        ],
+        "has_waf": false,
+        "has_cdn": true
+      },
+      "security_headers": {
+        "headers": {
+          "strict-transport-security": "max-age=31536000; preload; includeSubDomains",
+          "content-security-policy": "default-src *.facebook.com *.fbcdn.net *.instagram.com blob:;script-src *.instagram.com static.cdninstagram.com *.facebook.com *.fbcdn.net *.facebook.net 127.0.0.1:* 'nonce-2ghC9hge' blob: 'self' 'unsafe-eval' https://*.google-analytics.com https://translate.google.com https://apis.google.com https://accounts.google.com;style-src *.instagram.com static.cdninstagram.com data: blob: 'unsafe-inline' *.fbcdn.net *.facebook.com https://accounts.google.com;connect-src *.instagram.com wss://edge-chat.instagram.com connect.facebook.net *.facebook.com facebook.com *.fbcdn.net *.facebook.net wss://*.facebook.com:* ws://localhost:* blob: *.cdninstagram.com wss://*.instagram.com:* 'self' https://accounts.google.com https://meta.privacy-gateway.cloudflare.com/relay;font-src *.instagram.com static.cdninstagram.com data: *.fbcdn.net *.intern.facebook.com *.facebook.com https://fonts.gstatic.com;img-src *.instagram.com *.facebook.com *.fbcdn.net data: *.cdninstagram.com *.whatsapp.net blob: *.fbsbx.com android-webview-video-poster: *.oculuscdn.com *.giphy.com *.tenor.co *.tenor.com www.googleadservices.com *.doubleclick.net *.google.com *.google.co.uk https://www.gstatic.com https://*.google-analytics.com;media-src *.facebook.com *.fbcdn.net *.instagram.com *.cdninstagram.com *.fbsbx.com data: blob: https://*.giphy.com *.tenor.co *.tenor.com;child-src *.facebook.com *.fbcdn.net *.instagram.com data: blob:;frame-src *.instagram.com *.facebook.com *.fbsbx.com fbsbx.com data: www.googleadservices.com *.doubleclick.net *.google.com *.google.co.uk;manifest-src *.facebook.com *.fbcdn.net *.instagram.com data: blob:;object-src *.facebook.com *.fbcdn.net *.instagram.com data: blob:;block-all-mixed-content;upgrade-insecure-requests;",
+          "x-frame-options": "DENY",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "0",
+          "referrer-policy": false,
+          "permissions-policy": "accelerometer=(self), attribution-reporting=(), autoplay=(), bluetooth=(), camera=(self), ch-device-memory=(), ch-downlink=(), ch-dpr=(), ch-ect=(), ch-rtt=(), ch-save-data=(), ch-ua-arch=(), ch-ua-bitness=(), ch-viewport-height=(), ch-viewport-width=(), ch-width=(), clipboard-read=(), clipboard-write=(self), compute-pressure=(), display-capture=(self), encrypted-media=(), fullscreen=(self), gamepad=(), geolocation=(self), gyroscope=(self), hid=(), idle-detection=(), interest-cohort=(), keyboard-map=(), local-fonts=(), magnetometer=(), microphone=(self), midi=(), otp-credentials=(self), payment=(), picture-in-picture=(self), private-state-token-issuance=(), publickey-credentials-get=(self \"https://*.facebook.com\" \"https://facebook.com\"), screen-wake-lock=(), serial=(), shared-storage=(), shared-storage-select-url=(), private-state-token-redemption=(), usb=(), unload=(self), window-management=(), xr-spatial-tracking=();report-to=\"permissions_policy\""
+        },
+        "score": 85.71,
+        "missing": [
+          "referrer-policy"
+        ]
+      }
+    },
+    "cms": {
+      "detected": [
+        {
+          "cms": "wordpress",
+          "confidence": 25,
+          "version": null,
+          "evidence": [
+            "Meta: wp-"
+          ]
+        },
+        {
+          "cms": "shopify",
+          "confidence": 25,
+          "version": null,
+          "evidence": [
+            "Meta: shopify"
+          ]
+        }
+      ],
+      "primary": {
+        "cms": "wordpress",
+        "confidence": 25,
+        "version": null,
+        "evidence": [
+          "Meta: wp-"
+        ]
+      }
+    },
+    "databases": [],
+    "cloud_provider": "gcp",
+    "vulnerabilities": [],
+    "confidence_score": 0.5,
+    "metadata": {
+      "status_code": 200,
+      "final_url": "https://www.instagram.com/",
+      "content_length": 642945
+    },
+    "timestamp": "2026-03-31T09:56:57.984968"
+  },
+  "attack_surface_prioritization": {
+    "total_assets": 28,
+    "ranked_assets": [
+      {
+        "asset": "https://instagram.com/accounts/login/*?next=",
+        "asset_type": "endpoint",
+        "total_score": 100,
+        "priority_level": "critical",
+        "scoring_factors": [
+          {
+            "category": "authentication",
+            "description": "Authentication endpoint vulnerability",
+            "score": 70,
+            "weight": 1.8,
+            "weighted_score": 126.0,
+            "reasoning": "Authentication endpoint detected"
+          }
+        ],
+        "recommended_attacks": [
+          "Credential stuffing with breach data",
+          "Brute force attack with common passwords",
+          "Authentication bypass techniques"
+        ],
+        "risk_summary": "CRITICAL priority target (score: 100.0/100). Key factors: Authentication endpoint vulnerability.",
+        "metadata": {
+          "directive": "disallow",
+          "path": "/accounts/login/*?next=",
+          "note": "Restricted in robots.txt - high value target"
+        },
+        "ranked_position": 1,
+        "timestamp": "2026-03-31T09:57:00.197289"
+      },
+      {
+        "asset": "default-src *.facebook.com *.fbcdn.net *.instagram.com blob:;script-src *.instagram.com static.cdninstagram.com *.facebook.com *.fbcdn.net *.facebook.net 127.0.0.1:* 'nonce-M1nFTzrz' blob: 'self' 'unsafe-eval' https://*.google-analytics.com https://translate.google.com https://apis.google.com https://accounts.google.com;style-src *.instagram.com static.cdninstagram.com data: blob: 'unsafe-inline' *.fbcdn.net *.facebook.com https://accounts.google.com;connect-src *.instagram.com wss://edge-chat.instagram.com connect.facebook.net *.facebook.com facebook.com *.fbcdn.net *.facebook.net wss://*.facebook.com:* ws://localhost:* blob: *.cdninstagram.com wss://*.instagram.com:* 'self' https://accounts.google.com https://meta.privacy-gateway.cloudflare.com/relay;font-src *.instagram.com static.cdninstagram.com data: *.fbcdn.net *.intern.facebook.com *.facebook.com https://fonts.gstatic.com;img-src *.instagram.com *.facebook.com *.fbcdn.net data: *.cdninstagram.com *.whatsapp.net blob: *.fbsbx.com android-webview-video-poster: *.oculuscdn.com *.giphy.com *.tenor.co *.tenor.com www.googleadservices.com *.doubleclick.net *.google.com *.google.co.uk https://www.gstatic.com https://*.google-analytics.com;media-src *.facebook.com *.fbcdn.net *.instagram.com *.cdninstagram.com *.fbsbx.com data: blob: https://*.giphy.com *.tenor.co *.tenor.com;child-src *.facebook.com *.fbcdn.net *.instagram.com data: blob:;frame-src *.instagram.com *.facebook.com *.fbsbx.com fbsbx.com data: www.googleadservices.com *.doubleclick.net *.google.com *.google.co.uk;manifest-src *.facebook.com *.fbcdn.net *.instagram.com data: blob:;object-src *.facebook.com *.fbcdn.net *.instagram.com data: blob:;block-all-mixed-content;upgrade-insecure-requests;",
+        "asset_type": "technology",
+        "total_score": 100,
+        "priority_level": "critical",
+        "scoring_factors": [
+          {
+            "category": "api_endpoint",
+            "description": "API endpoint with attack potential",
+            "score": 65,
+            "weight": 1.7,
+            "weighted_score": 110.5,
+            "reasoning": "API endpoint detected"
+          }
+        ],
+        "recommended_attacks": [
+          "API parameter fuzzing",
+          "IDOR testing",
+          "SQL/NoSQL injection",
+          "Mass assignment exploitation",
+          "Rate limiting bypass"
+        ],
+        "risk_summary": "CRITICAL priority target (score: 100.0/100). Key factors: API endpoint with attack potential.",
+        "metadata": {
+          "header": "Content-Security-Policy",
+          "url": "https://instagram.com"
+        },
+        "ranked_position": 2,
+        "timestamp": "2026-03-31T09:57:00.198290"
+      },
+      {
+        "asset": "www.instagram.com",
+        "asset_type": "subdomain",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "subdomain_prefix": "www"
+        },
+        "ranked_position": 3,
+        "timestamp": "2026-03-31T09:57:00.197289"
+      },
+      {
+        "asset": "autodiscover.instagram.com",
+        "asset_type": "subdomain",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "subdomain_prefix": "autodiscover"
+        },
+        "ranked_position": 4,
+        "timestamp": "2026-03-31T09:57:00.197289"
+      },
+      {
+        "asset": "m.instagram.com",
+        "asset_type": "subdomain",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "subdomain_prefix": "m"
+        },
+        "ranked_position": 5,
+        "timestamp": "2026-03-31T09:57:00.197289"
+      },
+      {
+        "asset": "blog.instagram.com",
+        "asset_type": "subdomain",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "subdomain_prefix": "blog"
+        },
+        "ranked_position": 6,
+        "timestamp": "2026-03-31T09:57:00.197289"
+      },
+      {
+        "asset": "admin.instagram.com",
+        "asset_type": "subdomain",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "subdomain_prefix": "admin"
+        },
+        "ranked_position": 7,
+        "timestamp": "2026-03-31T09:57:00.197289"
+      },
+      {
+        "asset": "secure.instagram.com",
+        "asset_type": "subdomain",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "subdomain_prefix": "secure"
+        },
+        "ranked_position": 8,
+        "timestamp": "2026-03-31T09:57:00.197289"
+      },
+      {
+        "asset": "api.instagram.com",
+        "asset_type": "subdomain",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "subdomain_prefix": "api"
+        },
+        "ranked_position": 9,
+        "timestamp": "2026-03-31T09:57:00.197289"
+      },
+      {
+        "asset": "https://instagram.com/ajax/",
+        "asset_type": "endpoint",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "directive": "disallow",
+          "path": "/ajax/",
+          "note": "Restricted in robots.txt - high value target"
+        },
+        "ranked_position": 10,
+        "timestamp": "2026-03-31T09:57:00.197289"
+      },
+      {
+        "asset": "https://instagram.com/client_error/",
+        "asset_type": "endpoint",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "directive": "disallow",
+          "path": "/client_error/",
+          "note": "Restricted in robots.txt - high value target"
+        },
+        "ranked_position": 11,
+        "timestamp": "2026-03-31T09:57:00.197289"
+      },
+      {
+        "asset": "https://instagram.com/direct/",
+        "asset_type": "endpoint",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "directive": "disallow",
+          "path": "/direct/",
+          "note": "Restricted in robots.txt - high value target"
+        },
+        "ranked_position": 12,
+        "timestamp": "2026-03-31T09:57:00.197289"
+      },
+      {
+        "asset": "https://instagram.com/logging/",
+        "asset_type": "endpoint",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "directive": "disallow",
+          "path": "/logging/",
+          "note": "Restricted in robots.txt - high value target"
+        },
+        "ranked_position": 13,
+        "timestamp": "2026-03-31T09:57:00.197289"
+      },
+      {
+        "asset": "https://instagram.com/publicapi/",
+        "asset_type": "endpoint",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "directive": "disallow",
+          "path": "/publicapi/",
+          "note": "Restricted in robots.txt - high value target"
+        },
+        "ranked_position": 14,
+        "timestamp": "2026-03-31T09:57:00.197289"
+      },
+      {
+        "asset": "https://instagram.com/qp/batch_fetch_web/",
+        "asset_type": "endpoint",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "directive": "disallow",
+          "path": "/qp/batch_fetch_web/",
+          "note": "Restricted in robots.txt - high value target"
+        },
+        "ranked_position": 15,
+        "timestamp": "2026-03-31T09:57:00.197289"
+      },
+      {
+        "asset": "https://instagram.com/query/",
+        "asset_type": "endpoint",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "directive": "disallow",
+          "path": "/query/",
+          "note": "Restricted in robots.txt - high value target"
+        },
+        "ranked_position": 16,
+        "timestamp": "2026-03-31T09:57:00.197289"
+      },
+      {
+        "asset": "https://instagram.com/*/c/",
+        "asset_type": "endpoint",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "directive": "disallow",
+          "path": "/*/c/",
+          "note": "Restricted in robots.txt - high value target"
+        },
+        "ranked_position": 17,
+        "timestamp": "2026-03-31T09:57:00.197289"
+      },
+      {
+        "asset": "https://instagram.com/*/comments/",
+        "asset_type": "endpoint",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "directive": "disallow",
+          "path": "/*/comments/",
+          "note": "Restricted in robots.txt - high value target"
+        },
+        "ranked_position": 18,
+        "timestamp": "2026-03-31T09:57:00.197289"
+      },
+      {
+        "asset": "https://instagram.com/*/liked_by/",
+        "asset_type": "endpoint",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "directive": "disallow",
+          "path": "/*/liked_by/",
+          "note": "Restricted in robots.txt - high value target"
+        },
+        "ranked_position": 19,
+        "timestamp": "2026-03-31T09:57:00.197289"
+      },
+      {
+        "asset": "https://www.instagram.com/sitemap/ig_seo_guide_sitemap.xml.gz",
+        "asset_type": "sitemap",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "type": "sitemap_reference"
+        },
+        "ranked_position": 20,
+        "timestamp": "2026-03-31T09:57:00.198290"
+      },
+      {
+        "asset": "https://www.instagram.com/sitemap/ig_seo_images_sitemap.xml.gz",
+        "asset_type": "sitemap",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "type": "sitemap_reference"
+        },
+        "ranked_position": 21,
+        "timestamp": "2026-03-31T09:57:00.198290"
+      },
+      {
+        "asset": "https://www.instagram.com/sitemap/ig_seo_profile_sitemap.xml.gz",
+        "asset_type": "sitemap",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "type": "sitemap_reference"
+        },
+        "ranked_position": 22,
+        "timestamp": "2026-03-31T09:57:00.198290"
+      },
+      {
+        "asset": "https://www.instagram.com/sitemap/ig_seo_profile_sitemap_small_accounts.xml.gz",
+        "asset_type": "sitemap",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "type": "sitemap_reference"
+        },
+        "ranked_position": 23,
+        "timestamp": "2026-03-31T09:57:00.198290"
+      },
+      {
+        "asset": "https://www.instagram.com/sitemap/ig_seo_location_sitemap.xml.gz",
+        "asset_type": "sitemap",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "type": "sitemap_reference"
+        },
+        "ranked_position": 24,
+        "timestamp": "2026-03-31T09:57:00.198290"
+      },
+      {
+        "asset": "https://www.instagram.com/sitemap/ig_seo_audio_sitemap.xml.gz",
+        "asset_type": "sitemap",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "type": "sitemap_reference"
+        },
+        "ranked_position": 25,
+        "timestamp": "2026-03-31T09:57:00.198290"
+      },
+      {
+        "asset": "https://www.instagram.com/sitemap/dim_ig_logged_out_web_keyword_ent.xml.gz",
+        "asset_type": "sitemap",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "type": "sitemap_reference"
+        },
+        "ranked_position": 26,
+        "timestamp": "2026-03-31T09:57:00.198290"
+      },
+      {
+        "asset": "https://instagram.com/",
+        "asset_type": "url",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "found_in": "https://instagram.com"
+        },
+        "ranked_position": 27,
+        "timestamp": "2026-03-31T09:57:00.198290"
+      },
+      {
+        "asset": "https://instagram.com/x-icon",
+        "asset_type": "url",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "found_in": "https://instagram.com"
+        },
+        "ranked_position": 28,
+        "timestamp": "2026-03-31T09:57:00.198290"
+      }
+    ],
+    "categorized_by_priority": {
+      "critical": [
+        {
+          "asset": "https://instagram.com/accounts/login/*?next=",
+          "asset_type": "endpoint",
+          "total_score": 100,
+          "priority_level": "critical",
+          "scoring_factors": [
+            {
+              "category": "authentication",
+              "description": "Authentication endpoint vulnerability",
+              "score": 70,
+              "weight": 1.8,
+              "weighted_score": 126.0,
+              "reasoning": "Authentication endpoint detected"
+            }
+          ],
+          "recommended_attacks": [
+            "Credential stuffing with breach data",
+            "Brute force attack with common passwords",
+            "Authentication bypass techniques"
+          ],
+          "risk_summary": "CRITICAL priority target (score: 100.0/100). Key factors: Authentication endpoint vulnerability.",
+          "metadata": {
+            "directive": "disallow",
+            "path": "/accounts/login/*?next=",
+            "note": "Restricted in robots.txt - high value target"
+          },
+          "ranked_position": 1,
+          "timestamp": "2026-03-31T09:57:00.197289"
+        },
+        {
+          "asset": "default-src *.facebook.com *.fbcdn.net *.instagram.com blob:;script-src *.instagram.com static.cdninstagram.com *.facebook.com *.fbcdn.net *.facebook.net 127.0.0.1:* 'nonce-M1nFTzrz' blob: 'self' 'unsafe-eval' https://*.google-analytics.com https://translate.google.com https://apis.google.com https://accounts.google.com;style-src *.instagram.com static.cdninstagram.com data: blob: 'unsafe-inline' *.fbcdn.net *.facebook.com https://accounts.google.com;connect-src *.instagram.com wss://edge-chat.instagram.com connect.facebook.net *.facebook.com facebook.com *.fbcdn.net *.facebook.net wss://*.facebook.com:* ws://localhost:* blob: *.cdninstagram.com wss://*.instagram.com:* 'self' https://accounts.google.com https://meta.privacy-gateway.cloudflare.com/relay;font-src *.instagram.com static.cdninstagram.com data: *.fbcdn.net *.intern.facebook.com *.facebook.com https://fonts.gstatic.com;img-src *.instagram.com *.facebook.com *.fbcdn.net data: *.cdninstagram.com *.whatsapp.net blob: *.fbsbx.com android-webview-video-poster: *.oculuscdn.com *.giphy.com *.tenor.co *.tenor.com www.googleadservices.com *.doubleclick.net *.google.com *.google.co.uk https://www.gstatic.com https://*.google-analytics.com;media-src *.facebook.com *.fbcdn.net *.instagram.com *.cdninstagram.com *.fbsbx.com data: blob: https://*.giphy.com *.tenor.co *.tenor.com;child-src *.facebook.com *.fbcdn.net *.instagram.com data: blob:;frame-src *.instagram.com *.facebook.com *.fbsbx.com fbsbx.com data: www.googleadservices.com *.doubleclick.net *.google.com *.google.co.uk;manifest-src *.facebook.com *.fbcdn.net *.instagram.com data: blob:;object-src *.facebook.com *.fbcdn.net *.instagram.com data: blob:;block-all-mixed-content;upgrade-insecure-requests;",
+          "asset_type": "technology",
+          "total_score": 100,
+          "priority_level": "critical",
+          "scoring_factors": [
+            {
+              "category": "api_endpoint",
+              "description": "API endpoint with attack potential",
+              "score": 65,
+              "weight": 1.7,
+              "weighted_score": 110.5,
+              "reasoning": "API endpoint detected"
+            }
+          ],
+          "recommended_attacks": [
+            "API parameter fuzzing",
+            "IDOR testing",
+            "SQL/NoSQL injection",
+            "Mass assignment exploitation",
+            "Rate limiting bypass"
+          ],
+          "risk_summary": "CRITICAL priority target (score: 100.0/100). Key factors: API endpoint with attack potential.",
+          "metadata": {
+            "header": "Content-Security-Policy",
+            "url": "https://instagram.com"
+          },
+          "ranked_position": 2,
+          "timestamp": "2026-03-31T09:57:00.198290"
+        }
+      ],
+      "high": [],
+      "medium": [],
+      "low": [],
+      "minimal": [
+        {
+          "asset": "www.instagram.com",
+          "asset_type": "subdomain",
+          "total_score": 10,
+          "priority_level": "minimal",
+          "scoring_factors": [],
+          "recommended_attacks": [],
+          "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+          "metadata": {
+            "subdomain_prefix": "www"
+          },
+          "ranked_position": 3,
+          "timestamp": "2026-03-31T09:57:00.197289"
+        },
+        {
+          "asset": "autodiscover.instagram.com",
+          "asset_type": "subdomain",
+          "total_score": 10,
+          "priority_level": "minimal",
+          "scoring_factors": [],
+          "recommended_attacks": [],
+          "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+          "metadata": {
+            "subdomain_prefix": "autodiscover"
+          },
+          "ranked_position": 4,
+          "timestamp": "2026-03-31T09:57:00.197289"
+        },
+        {
+          "asset": "m.instagram.com",
+          "asset_type": "subdomain",
+          "total_score": 10,
+          "priority_level": "minimal",
+          "scoring_factors": [],
+          "recommended_attacks": [],
+          "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+          "metadata": {
+            "subdomain_prefix": "m"
+          },
+          "ranked_position": 5,
+          "timestamp": "2026-03-31T09:57:00.197289"
+        },
+        {
+          "asset": "blog.instagram.com",
+          "asset_type": "subdomain",
+          "total_score": 10,
+          "priority_level": "minimal",
+          "scoring_factors": [],
+          "recommended_attacks": [],
+          "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+          "metadata": {
+            "subdomain_prefix": "blog"
+          },
+          "ranked_position": 6,
+          "timestamp": "2026-03-31T09:57:00.197289"
+        },
+        {
+          "asset": "admin.instagram.com",
+          "asset_type": "subdomain",
+          "total_score": 10,
+          "priority_level": "minimal",
+          "scoring_factors": [],
+          "recommended_attacks": [],
+          "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+          "metadata": {
+            "subdomain_prefix": "admin"
+          },
+          "ranked_position": 7,
+          "timestamp": "2026-03-31T09:57:00.197289"
+        },
+        {
+          "asset": "secure.instagram.com",
+          "asset_type": "subdomain",
+          "total_score": 10,
+          "priority_level": "minimal",
+          "scoring_factors": [],
+          "recommended_attacks": [],
+          "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+          "metadata": {
+            "subdomain_prefix": "secure"
+          },
+          "ranked_position": 8,
+          "timestamp": "2026-03-31T09:57:00.197289"
+        },
+        {
+          "asset": "api.instagram.com",
+          "asset_type": "subdomain",
+          "total_score": 10,
+          "priority_level": "minimal",
+          "scoring_factors": [],
+          "recommended_attacks": [],
+          "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+          "metadata": {
+            "subdomain_prefix": "api"
+          },
+          "ranked_position": 9,
+          "timestamp": "2026-03-31T09:57:00.197289"
+        },
+        {
+          "asset": "https://instagram.com/ajax/",
+          "asset_type": "endpoint",
+          "total_score": 10,
+          "priority_level": "minimal",
+          "scoring_factors": [],
+          "recommended_attacks": [],
+          "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+          "metadata": {
+            "directive": "disallow",
+            "path": "/ajax/",
+            "note": "Restricted in robots.txt - high value target"
+          },
+          "ranked_position": 10,
+          "timestamp": "2026-03-31T09:57:00.197289"
+        },
+        {
+          "asset": "https://instagram.com/client_error/",
+          "asset_type": "endpoint",
+          "total_score": 10,
+          "priority_level": "minimal",
+          "scoring_factors": [],
+          "recommended_attacks": [],
+          "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+          "metadata": {
+            "directive": "disallow",
+            "path": "/client_error/",
+            "note": "Restricted in robots.txt - high value target"
+          },
+          "ranked_position": 11,
+          "timestamp": "2026-03-31T09:57:00.197289"
+        },
+        {
+          "asset": "https://instagram.com/direct/",
+          "asset_type": "endpoint",
+          "total_score": 10,
+          "priority_level": "minimal",
+          "scoring_factors": [],
+          "recommended_attacks": [],
+          "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+          "metadata": {
+            "directive": "disallow",
+            "path": "/direct/",
+            "note": "Restricted in robots.txt - high value target"
+          },
+          "ranked_position": 12,
+          "timestamp": "2026-03-31T09:57:00.197289"
+        },
+        {
+          "asset": "https://instagram.com/logging/",
+          "asset_type": "endpoint",
+          "total_score": 10,
+          "priority_level": "minimal",
+          "scoring_factors": [],
+          "recommended_attacks": [],
+          "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+          "metadata": {
+            "directive": "disallow",
+            "path": "/logging/",
+            "note": "Restricted in robots.txt - high value target"
+          },
+          "ranked_position": 13,
+          "timestamp": "2026-03-31T09:57:00.197289"
+        },
+        {
+          "asset": "https://instagram.com/publicapi/",
+          "asset_type": "endpoint",
+          "total_score": 10,
+          "priority_level": "minimal",
+          "scoring_factors": [],
+          "recommended_attacks": [],
+          "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+          "metadata": {
+            "directive": "disallow",
+            "path": "/publicapi/",
+            "note": "Restricted in robots.txt - high value target"
+          },
+          "ranked_position": 14,
+          "timestamp": "2026-03-31T09:57:00.197289"
+        },
+        {
+          "asset": "https://instagram.com/qp/batch_fetch_web/",
+          "asset_type": "endpoint",
+          "total_score": 10,
+          "priority_level": "minimal",
+          "scoring_factors": [],
+          "recommended_attacks": [],
+          "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+          "metadata": {
+            "directive": "disallow",
+            "path": "/qp/batch_fetch_web/",
+            "note": "Restricted in robots.txt - high value target"
+          },
+          "ranked_position": 15,
+          "timestamp": "2026-03-31T09:57:00.197289"
+        },
+        {
+          "asset": "https://instagram.com/query/",
+          "asset_type": "endpoint",
+          "total_score": 10,
+          "priority_level": "minimal",
+          "scoring_factors": [],
+          "recommended_attacks": [],
+          "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+          "metadata": {
+            "directive": "disallow",
+            "path": "/query/",
+            "note": "Restricted in robots.txt - high value target"
+          },
+          "ranked_position": 16,
+          "timestamp": "2026-03-31T09:57:00.197289"
+        },
+        {
+          "asset": "https://instagram.com/*/c/",
+          "asset_type": "endpoint",
+          "total_score": 10,
+          "priority_level": "minimal",
+          "scoring_factors": [],
+          "recommended_attacks": [],
+          "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+          "metadata": {
+            "directive": "disallow",
+            "path": "/*/c/",
+            "note": "Restricted in robots.txt - high value target"
+          },
+          "ranked_position": 17,
+          "timestamp": "2026-03-31T09:57:00.197289"
+        },
+        {
+          "asset": "https://instagram.com/*/comments/",
+          "asset_type": "endpoint",
+          "total_score": 10,
+          "priority_level": "minimal",
+          "scoring_factors": [],
+          "recommended_attacks": [],
+          "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+          "metadata": {
+            "directive": "disallow",
+            "path": "/*/comments/",
+            "note": "Restricted in robots.txt - high value target"
+          },
+          "ranked_position": 18,
+          "timestamp": "2026-03-31T09:57:00.197289"
+        },
+        {
+          "asset": "https://instagram.com/*/liked_by/",
+          "asset_type": "endpoint",
+          "total_score": 10,
+          "priority_level": "minimal",
+          "scoring_factors": [],
+          "recommended_attacks": [],
+          "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+          "metadata": {
+            "directive": "disallow",
+            "path": "/*/liked_by/",
+            "note": "Restricted in robots.txt - high value target"
+          },
+          "ranked_position": 19,
+          "timestamp": "2026-03-31T09:57:00.197289"
+        },
+        {
+          "asset": "https://www.instagram.com/sitemap/ig_seo_guide_sitemap.xml.gz",
+          "asset_type": "sitemap",
+          "total_score": 10,
+          "priority_level": "minimal",
+          "scoring_factors": [],
+          "recommended_attacks": [],
+          "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+          "metadata": {
+            "type": "sitemap_reference"
+          },
+          "ranked_position": 20,
+          "timestamp": "2026-03-31T09:57:00.198290"
+        },
+        {
+          "asset": "https://www.instagram.com/sitemap/ig_seo_images_sitemap.xml.gz",
+          "asset_type": "sitemap",
+          "total_score": 10,
+          "priority_level": "minimal",
+          "scoring_factors": [],
+          "recommended_attacks": [],
+          "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+          "metadata": {
+            "type": "sitemap_reference"
+          },
+          "ranked_position": 21,
+          "timestamp": "2026-03-31T09:57:00.198290"
+        },
+        {
+          "asset": "https://www.instagram.com/sitemap/ig_seo_profile_sitemap.xml.gz",
+          "asset_type": "sitemap",
+          "total_score": 10,
+          "priority_level": "minimal",
+          "scoring_factors": [],
+          "recommended_attacks": [],
+          "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+          "metadata": {
+            "type": "sitemap_reference"
+          },
+          "ranked_position": 22,
+          "timestamp": "2026-03-31T09:57:00.198290"
+        },
+        {
+          "asset": "https://www.instagram.com/sitemap/ig_seo_profile_sitemap_small_accounts.xml.gz",
+          "asset_type": "sitemap",
+          "total_score": 10,
+          "priority_level": "minimal",
+          "scoring_factors": [],
+          "recommended_attacks": [],
+          "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+          "metadata": {
+            "type": "sitemap_reference"
+          },
+          "ranked_position": 23,
+          "timestamp": "2026-03-31T09:57:00.198290"
+        },
+        {
+          "asset": "https://www.instagram.com/sitemap/ig_seo_location_sitemap.xml.gz",
+          "asset_type": "sitemap",
+          "total_score": 10,
+          "priority_level": "minimal",
+          "scoring_factors": [],
+          "recommended_attacks": [],
+          "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+          "metadata": {
+            "type": "sitemap_reference"
+          },
+          "ranked_position": 24,
+          "timestamp": "2026-03-31T09:57:00.198290"
+        },
+        {
+          "asset": "https://www.instagram.com/sitemap/ig_seo_audio_sitemap.xml.gz",
+          "asset_type": "sitemap",
+          "total_score": 10,
+          "priority_level": "minimal",
+          "scoring_factors": [],
+          "recommended_attacks": [],
+          "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+          "metadata": {
+            "type": "sitemap_reference"
+          },
+          "ranked_position": 25,
+          "timestamp": "2026-03-31T09:57:00.198290"
+        },
+        {
+          "asset": "https://www.instagram.com/sitemap/dim_ig_logged_out_web_keyword_ent.xml.gz",
+          "asset_type": "sitemap",
+          "total_score": 10,
+          "priority_level": "minimal",
+          "scoring_factors": [],
+          "recommended_attacks": [],
+          "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+          "metadata": {
+            "type": "sitemap_reference"
+          },
+          "ranked_position": 26,
+          "timestamp": "2026-03-31T09:57:00.198290"
+        },
+        {
+          "asset": "https://instagram.com/",
+          "asset_type": "url",
+          "total_score": 10,
+          "priority_level": "minimal",
+          "scoring_factors": [],
+          "recommended_attacks": [],
+          "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+          "metadata": {
+            "found_in": "https://instagram.com"
+          },
+          "ranked_position": 27,
+          "timestamp": "2026-03-31T09:57:00.198290"
+        },
+        {
+          "asset": "https://instagram.com/x-icon",
+          "asset_type": "url",
+          "total_score": 10,
+          "priority_level": "minimal",
+          "scoring_factors": [],
+          "recommended_attacks": [],
+          "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+          "metadata": {
+            "found_in": "https://instagram.com"
+          },
+          "ranked_position": 28,
+          "timestamp": "2026-03-31T09:57:00.198290"
+        }
+      ]
+    },
+    "summary": {
+      "critical": 2,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "minimal": 26
+    },
+    "top_targets": [
+      {
+        "asset": "https://instagram.com/accounts/login/*?next=",
+        "asset_type": "endpoint",
+        "total_score": 100,
+        "priority_level": "critical",
+        "scoring_factors": [
+          {
+            "category": "authentication",
+            "description": "Authentication endpoint vulnerability",
+            "score": 70,
+            "weight": 1.8,
+            "weighted_score": 126.0,
+            "reasoning": "Authentication endpoint detected"
+          }
+        ],
+        "recommended_attacks": [
+          "Credential stuffing with breach data",
+          "Brute force attack with common passwords",
+          "Authentication bypass techniques"
+        ],
+        "risk_summary": "CRITICAL priority target (score: 100.0/100). Key factors: Authentication endpoint vulnerability.",
+        "metadata": {
+          "directive": "disallow",
+          "path": "/accounts/login/*?next=",
+          "note": "Restricted in robots.txt - high value target"
+        },
+        "ranked_position": 1,
+        "timestamp": "2026-03-31T09:57:00.197289"
+      },
+      {
+        "asset": "default-src *.facebook.com *.fbcdn.net *.instagram.com blob:;script-src *.instagram.com static.cdninstagram.com *.facebook.com *.fbcdn.net *.facebook.net 127.0.0.1:* 'nonce-M1nFTzrz' blob: 'self' 'unsafe-eval' https://*.google-analytics.com https://translate.google.com https://apis.google.com https://accounts.google.com;style-src *.instagram.com static.cdninstagram.com data: blob: 'unsafe-inline' *.fbcdn.net *.facebook.com https://accounts.google.com;connect-src *.instagram.com wss://edge-chat.instagram.com connect.facebook.net *.facebook.com facebook.com *.fbcdn.net *.facebook.net wss://*.facebook.com:* ws://localhost:* blob: *.cdninstagram.com wss://*.instagram.com:* 'self' https://accounts.google.com https://meta.privacy-gateway.cloudflare.com/relay;font-src *.instagram.com static.cdninstagram.com data: *.fbcdn.net *.intern.facebook.com *.facebook.com https://fonts.gstatic.com;img-src *.instagram.com *.facebook.com *.fbcdn.net data: *.cdninstagram.com *.whatsapp.net blob: *.fbsbx.com android-webview-video-poster: *.oculuscdn.com *.giphy.com *.tenor.co *.tenor.com www.googleadservices.com *.doubleclick.net *.google.com *.google.co.uk https://www.gstatic.com https://*.google-analytics.com;media-src *.facebook.com *.fbcdn.net *.instagram.com *.cdninstagram.com *.fbsbx.com data: blob: https://*.giphy.com *.tenor.co *.tenor.com;child-src *.facebook.com *.fbcdn.net *.instagram.com data: blob:;frame-src *.instagram.com *.facebook.com *.fbsbx.com fbsbx.com data: www.googleadservices.com *.doubleclick.net *.google.com *.google.co.uk;manifest-src *.facebook.com *.fbcdn.net *.instagram.com data: blob:;object-src *.facebook.com *.fbcdn.net *.instagram.com data: blob:;block-all-mixed-content;upgrade-insecure-requests;",
+        "asset_type": "technology",
+        "total_score": 100,
+        "priority_level": "critical",
+        "scoring_factors": [
+          {
+            "category": "api_endpoint",
+            "description": "API endpoint with attack potential",
+            "score": 65,
+            "weight": 1.7,
+            "weighted_score": 110.5,
+            "reasoning": "API endpoint detected"
+          }
+        ],
+        "recommended_attacks": [
+          "API parameter fuzzing",
+          "IDOR testing",
+          "SQL/NoSQL injection",
+          "Mass assignment exploitation",
+          "Rate limiting bypass"
+        ],
+        "risk_summary": "CRITICAL priority target (score: 100.0/100). Key factors: API endpoint with attack potential.",
+        "metadata": {
+          "header": "Content-Security-Policy",
+          "url": "https://instagram.com"
+        },
+        "ranked_position": 2,
+        "timestamp": "2026-03-31T09:57:00.198290"
+      },
+      {
+        "asset": "www.instagram.com",
+        "asset_type": "subdomain",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "subdomain_prefix": "www"
+        },
+        "ranked_position": 3,
+        "timestamp": "2026-03-31T09:57:00.197289"
+      },
+      {
+        "asset": "autodiscover.instagram.com",
+        "asset_type": "subdomain",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "subdomain_prefix": "autodiscover"
+        },
+        "ranked_position": 4,
+        "timestamp": "2026-03-31T09:57:00.197289"
+      },
+      {
+        "asset": "m.instagram.com",
+        "asset_type": "subdomain",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "subdomain_prefix": "m"
+        },
+        "ranked_position": 5,
+        "timestamp": "2026-03-31T09:57:00.197289"
+      },
+      {
+        "asset": "blog.instagram.com",
+        "asset_type": "subdomain",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "subdomain_prefix": "blog"
+        },
+        "ranked_position": 6,
+        "timestamp": "2026-03-31T09:57:00.197289"
+      },
+      {
+        "asset": "admin.instagram.com",
+        "asset_type": "subdomain",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "subdomain_prefix": "admin"
+        },
+        "ranked_position": 7,
+        "timestamp": "2026-03-31T09:57:00.197289"
+      },
+      {
+        "asset": "secure.instagram.com",
+        "asset_type": "subdomain",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "subdomain_prefix": "secure"
+        },
+        "ranked_position": 8,
+        "timestamp": "2026-03-31T09:57:00.197289"
+      },
+      {
+        "asset": "api.instagram.com",
+        "asset_type": "subdomain",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "subdomain_prefix": "api"
+        },
+        "ranked_position": 9,
+        "timestamp": "2026-03-31T09:57:00.197289"
+      },
+      {
+        "asset": "https://instagram.com/ajax/",
+        "asset_type": "endpoint",
+        "total_score": 10,
+        "priority_level": "minimal",
+        "scoring_factors": [],
+        "recommended_attacks": [],
+        "risk_summary": "MINIMAL priority target (score: 10.0/100).",
+        "metadata": {
+          "directive": "disallow",
+          "path": "/ajax/",
+          "note": "Restricted in robots.txt - high value target"
+        },
+        "ranked_position": 10,
+        "timestamp": "2026-03-31T09:57:00.197289"
+      }
+    ],
+    "timestamp": "2026-03-31T09:57:00.198290"
+  },
+  "attack_advisory": {
+    "executive_summary": "Analysis identified 2 viable attack paths. 1 paths have HIGH success probability. Recommended initial approach: Direct Web Application Attack (No WAF). Intelligence quality: moderate.",
+    "attack_paths": [
+      {
+        "name": "JWT Token Manipulation Attack",
+        "category": "jwt_abuse",
+        "description": "Exploit weak JWT implementation for authentication bypass",
+        "steps": [
+          "Capture JWT tokens from authentication responses",
+          "Analyze token structure (header, payload, signature)",
+          "Test for algorithm confusion (RS256 \u2192 HS256)",
+          "Check for weak signing secrets (brute force with common wordlists)",
+          "Test 'none' algorithm acceptance",
+          "Modify payload claims (user role, permissions, expiration)",
+          "Replay modified tokens for privilege escalation"
+        ],
+        "prerequisites": [
+          "Valid JWT token sample",
+          "Authentication endpoint"
+        ],
+        "tools_required": [
+          "jwt_tool",
+          "Burp Suite JWT Editor",
+          "Hashcat",
+          "Custom scripts"
+        ],
+        "success_probability": "medium",
+        "detection_likelihood": "low",
+        "estimated_effort": "hours",
+        "impact": "Authentication bypass or privilege escalation to admin access",
+        "intelligence_basis": "JWT/Bearer authentication mechanism detected in tech stack"
+      },
+      {
+        "name": "Direct Web Application Attack (No WAF)",
+        "category": "web_exploitation",
+        "description": "Direct exploitation without WAF protection",
+        "steps": [
+          "No WAF detected - direct application access possible",
+          "Perform active vulnerability scanning (SQLi, XSS, IDOR)",
+          "Test for common web vulnerabilities without rate limiting concerns",
+          "Brute force authentication endpoints",
+          "Attempt file upload vulnerabilities",
+          "Test for server-side request forgery (SSRF)"
+        ],
+        "prerequisites": [
+          "Direct application access"
+        ],
+        "tools_required": [
+          "sqlmap",
+          "Burp Suite Pro",
+          "OWASP ZAP",
+          "Nuclei",
+          "ffuf"
+        ],
+        "success_probability": "high",
+        "detection_likelihood": "high",
+        "estimated_effort": "days",
+        "impact": "Full application compromise including database access",
+        "intelligence_basis": "No WAF/CDN protection detected - direct access to application"
+      }
+    ],
+    "defense_evasion_tips": [
+      "Use rotating residential proxies to avoid IP-based blocking",
+      "Implement realistic timing delays between requests (3-30 seconds)",
+      "Randomize user agents and HTTP headers to mimic legitimate traffic",
+      "Monitor for honeypot indicators (fake admin panels, trap endpoints)",
+      "Use HTTPS and encrypted channels for command & control",
+      "Segment attack infrastructure from personal/corporate networks"
+    ],
+    "recommended_order": [
+      "Direct Web Application Attack (No WAF)",
+      "JWT Token Manipulation Attack"
+    ],
+    "generated_at": "2026-03-31T15:27:03.532992",
+    "model_used": "rule-based (LLM not available)",
+    "intelligence_quality": "moderate"
+  },
+  "recon_decision": {
+    "decision": "stop",
+    "confidence": 0.21,
+    "primary_reason": "Average exploitability score 28.0 below threshold 30.0",
+    "stop_conditions": [
+      {
+        "condition_type": "iteration_limit",
+        "met": false,
+        "score": 0,
+        "description": "Iteration 1/10",
+        "evidence": "9 iterations remaining"
+      },
+      {
+        "condition_type": "time_limit",
+        "met": false,
+        "score": 0,
+        "description": "Time elapsed: 21s / 3600s",
+        "evidence": "3579s remaining"
+      },
+      {
+        "condition_type": "score_threshold",
+        "met": true,
+        "score": 4,
+        "description": "Average exploitability score 28.0 below threshold 30.0",
+        "evidence": "Only low-value targets remaining - not worth continued recon"
+      }
+    ],
+    "recommendations": [
+      "Transition to exploitation phase",
+      "Analyze prioritized targets",
+      "Begin attack execution on highest-priority assets"
+    ],
+    "metadata": {
+      "iteration": 1,
+      "conditions_evaluated": 3,
+      "conditions_met": 1,
+      "critical_stop": false,
+      "non_critical_stop": true
+    },
+    "timestamp": "2026-03-31T09:57:03.533996"
+  },
+  "iteration": 1,
+  "should_continue_recon": false,
+  "start_time": "2026-03-31T09:56:42.234212",
+  "state_history": [],
+  "metadata": {
+    "max_iterations": 3
+  },
+  "errors": []
+}
